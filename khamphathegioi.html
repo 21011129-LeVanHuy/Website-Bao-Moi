@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo Mới - Tin tức 24H, đọc báo mới nhanh nhất hôm nay</title>
+    <script src="baomoi.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="app">
+        <div id="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href=""><img src="https://baomoi-static.bmcdn.me/web-v2/prod/v0.5.1/public/images/default-skin/bm-logo.png" alt=""></a>
+                </div>
+                <div class="searchbox">
+                    <input type="text" class="searchbox-input" placeholder="Nhập nội dung tìm kiếm">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                </div>
+                <div class="contact">
+                    <i class="fa-regular fa-user contact-icon"></i>
+                    <i class="fa-solid fa-mobile contact-icon"></i>
+                </div>
+            </div>
+        </div>
+        <!-- ---SUBNAV--- -->
+        <div id="subnav">
+            <div class="subnav-container">
+                <div class="subnav-topic">
+                    <h3 class="subnav-topic-item"><a href="./nong.html">NÓNG</a></h3>
+                    <h3 class="subnav-topic-item"><a href="./moi.html">MỚI</a></h3>
+                    <h3 class="subnav-topic-item"><a href="./video.html">VIDEO</a></h3>
+                    <h3 class="subnav-topic-item"><a href="./chude.html">CHỦ ĐỀ</a></h3>
+                </div>
+                <div class="subnav-hagtag">
+                    <h3 class="subnav-hagtag-item"><a href="./nangluongtichcuc.html"># Năng lượng tích cực</a></h3>
+                    <h3 class="subnav-hagtag-item"><a href="./khamphavietnam.html"># Khám phá Việt Nam</a></h3>
+                    <h3 class="subnav-hagtag-item"><a href="./khamphathegioi.html"># Khám phá thế giới</a></h3>
+                </div>
+                <i class="fa-solid fa-bars subnav-icon"></i>
+            </div>
+
+            <div class="nd-thanh3gach">
+                <div class="nd-trong-thanh3gach">
+                    <div class="nd-dt-trong-thanh3gach">
+                        <div class="nd-bongda-thanh3gach">
+                            <div class="gachdoc"></div>
+                            <p><a href="https://baomoi.com/bong-da.epi">BÓNG ĐÁ</a></p>
+                        </div>
+                        <div class="nd-thegioi-thanh3gach">
+                            <div class="gachdoc1"></div>
+                            <p><a href="https://baomoi.com/the-gioi.epi">THẾ GIỚI</a></p>
+    
+                        </div>
+                        <div class="nd-bongda-thanh3gach">
+                            <div class="ochuadautien">
+                                <div class="gachdoc1"></div>
+                                <p><a href="https://baomoi.com/the-gioi.epi">XÃ HỘI</a></p>
+                            </div>
+                            
+                            <div class="ochuabenduoi">
+                                <p><a href="https://baomoi.com/thoi-su.epi">Thời sự</a></p>
+                                <p><a href="https://baomoi.com/giao-thong.epi">Giao thông</a></p>
+                                <p><a href="https://baomoi.com/moi-truong-khi-hau.epi">Môi trường - khí hậu</a></p>
+    
+                            </div>
+                        </div>
+                        <div class="nd-bongda-thanh3gach">
+                            <div class="ochuadautien">
+                                <div class="gachdoc1"></div>
+                                <p><a href="https://baomoi.com/van-hoa.epi">VĂN HÓA</a></p>
+                            </div>
+                            
+                            <div class="ochuabenduoi1">
+                                <p><a href="https://baomoi.com/nghe-thuat.epi">Nghệ thuật</a></p>
+                                <p><a href="https://baomoi.com/am-thuc.epi">Ẩm thực</a></p>
+                                <p><a href="https://baomoi.com/du-lich.epi">Du lịch</a></p>
+    
+                            </div>
+                        </div>
+                        <div class="nd-bongda-thanh3gach">
+                            <div class="ochuadautien">
+                                <div class="gachdoc1"></div>
+                                <p><a href="https://baomoi.com/kinh-te.epi">KINH TẾ</a></p>
+                            </div>
+                            
+                            <div class="ochuabenduoi2">
+                                <p><a href="https://baomoi.com/lao-dong-viec-lam.epi">Lao động - Việc làm</a></p>
+                                <p><a href="https://baomoi.com/tai-chinh.epi">Tài chính</a></p>
+                                <p><a href="https://baomoi.com/chung-khoan.epi">Chứng khoán</a></p>
+                                <p><a href="https://baomoi.com/kinh-doanh.epi">Kinh doanh</a></p>
+    
+    
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="nd-tt-trong-thanh3gach">
+                        <div class="nd-bongda-thanh3gach">
+                            <div class="ochuadautien">
+                                <div class="gachdoc1"></div>
+                                <p><a href="https://baomoi.com/the-gioi.epi">GIÁO DỤC</a></p>
+                            </div>
+                            
+                            <div class="ochuabenduoi3">
+                                <p><a href="https://baomoi.com/thoi-su.epi">Học bổng - Du học</a></p>
+                                <p><a href="https://baomoi.com/giao-thong.epi">Đào tạo - Thi cử</a></p>
+    
+                            </div>
+                        </div>
+                        <div class="nd-thegioi-thanh3gach">
+                            <div class="ochuadautien">
+                                <div class="gachdoc1"></div>
+                                <p><a href="https://baomoi.com/the-thao.epi">THỂ THAO</a></p>
+                            </div>
+                            
+                            <div class="ochuabenduoi4">
+                                <p><a href="https://baomoi.com/bong-da-quoc-te.epi">Bóng đá quốc tế</a></p>
+                                <p><a href="https://baomoi.com/bong-da-viet-nam.epi">Bóng đá Việt Nam</a></p>
+                                <p><a href="https://baomoi.com/quan-vot.epi">Quần vợt</a></p>
+    
+    
+                            </div>
+    
+                        </div>
+                        <div class="nd-bongda-thanh3gach">
+                            <div class="ochuadautien">
+                                <div class="gachdoc1"></div>
+                                <p><a href="https://baomoi.com/giai-tri.epi">GIẢITRÍ</a></p>
+                            </div>
+                            
+                            <div class="ochuabenduoi">
+                                <p><a href="https://baomoi.com/am-nhac.epi">Âm nhạc</a></p>
+                                <p><a href="https://baomoi.com/thoi-trang.epi">Thời trang</a></p>
+                                <p><a href="https://baomoi.com/dien-anh-truyen-hinh.epi">Điện ảnh - Truyền hình</a></p>
+    
+                            </div>
+                        </div>
+                        <div class="nd-bongda-thanh3gach">
+                            <div class="ochuadautien">
+                                <div class="gachdoc1"></div>
+                                <p><a href="https://baomoi.com/phap-luat.epi">PHÁP LUẬT</a></p>
+                            </div>
+                            
+                            <div class="ochuabenduoi5">
+                                <p><a href="https://baomoi.com/an-ninh-trat-tu.epi">An ninh - Trật tự</a></p>
+                                <p><a href="https://baomoi.com/hinh-su-dan-su.epi">Hình sự - Dân sự</a></p>
+    
+                            </div>
+                        </div>
+                        <div class="nd-bongda-thanh3gach">
+                            <div class="ochuadautien1">
+                                <div class="gachdoc1"></div>
+                                <p><a href="https://baomoi.com/kinh-te.epi">CÔNG NGHỆ</a></p>
+                            </div>
+                            
+                            <div class="ochuabenduoi6">
+                                <p><a href="https://baomoi.com/lao-dong-viec-lam.epi">CNTT-Viễn thông</a></p>
+                                <p><a href="https://baomoi.com/tai-chinh.epi">Thiết bị-Phần cứng</a></p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="nd-cc-trong-thanh3gach">
+                        <div class="nd-bongda-thanh3gach">
+                            <div class="ochuadautien">
+                                <div class="gachdoc1"></div>
+                                <p><a href="https://baomoi.com/the-gioi.epi">KHOA HỌC</a></p>
+                            </div>
+                            
+                            
+                        </div>
+                        <div class="nd-thegioi-thanh3gach">
+                            <div class="ochuadautien">
+                                <div class="gachdoc1"></div>
+                                <p><a href="https://baomoi.com/doi-song.epi">ĐỜI SỐNG</a></p>
+                            </div>
+                            
+                            <div class="ochuabenduoi4">
+                                <p><a href="https://baomoi.com/dinh-duong-lam-dep.epi">Dinh dưỡng-Làm đẹp</a></p>
+                                <p><a href="https://baomoi.com/tinh-yeu-hon-nhan.epi">Tình yêu-Hôn nhân</a></p>
+                                <p><a href="https://baomoi.com/suc-khoe-y-te.epi">Sức khỏe-Y tế</a></p>
+    
+    
+                            </div>
+    
+                        </div>
+                        <div class="nd-bongda-thanh3gach">
+                            <div class="ochuadautien">
+                                <div class="gachdoc1"></div>
+                                <p><a href="https://baomoi.com/giai-tri.epi">XE CỘ</a></p>
+                            </div>
+                            
+                            
+                        </div>
+                        <div class="nd-bongda-thanh3gach">
+                            <div class="ochuadautien">
+                                <div class="gachdoc1"></div>
+                                <p><a href="https://baomoi.com/nha-dat.epi">NHÀ ĐẤT</a></p>
+                            </div>
+                            
+                            <div class="ochuabenduoi7">
+                                <p><a href="https://baomoi.com/quan-ly-quy-hoach.epi">Quản lí-Quy hoạch</a></p>
+                                <p><a href="https://baomoi.com/khong-gian-kien-truc.epi">Không gian-Kiến trúc</a></p>
+    
+                            </div>
+                        </div>
+                        <div class="nd-bongda-thanh3gach">
+                            <div class="ochuadautien1">
+                                <div class="gachdoc1"></div>
+                                <p><a href="https://baomoi.com/kinh-te.epi">CÔNG NGHỆ</a></p>
+                            </div>
+                            
+                            <div class="ochuabenduoi6">
+                                <p><a href="https://baomoi.com/lao-dong-viec-lam.epi">CNTT-Viễn thông</a></p>
+                                <p><a href="https://baomoi.com/tai-chinh.epi">Thiết bị-Phần cứng</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+
+        
+         <!-- ---năng lượng tích cực---- -->
+         <div class="container" style="background-image: url(https://gamek.mediacdn.vn/133514250583805952/2022/8/4/photo-1-16595974475841980778276.jpg) ;">
+            <div class="container-small">
+                <div class="tieudekptg">
+                    <p><a href="https://baomoi.com/kham-pha-the-gioi-top363.epi">KHÁM PHÁ THẾ GIỚI</a></p>
+                </div>
+                <!-- nội dung đầu tiên -->
+                <div class="noidungdautien">
+                    <!-- bên trái -->
+                    <div class="noidungdautien-bentrai">
+                        <div class="khungo">
+                            <div class="khungbocanh">
+                                <a href="https://www.sgtiepthi.vn/ve-dep-cung-dien-linderhof-o-mien-nam-nuoc-duc/">
+                                    <img src="https://photo-baomoi.bmcdn.me/w700_r16x9/2023_10_11_465_47190913/2709737b4d37a469fd26.jpg.webp" alt="">
+                                </a>
+                            </div>
+                            <div class="khungbocchu">
+                                <p><a href="https://www.sgtiepthi.vn/ve-dep-cung-dien-linderhof-o-mien-nam-nuoc-duc/">Vẻ đẹp cung điện Linderhof ở miền Nam nước Đức
+
+                                </a></p>
+                            </div>
+                            <div class="khungttanh">
+                                <a href="https://baomoi.com/chuyen-trang-sai-gon-tiep-thi-tap-chi-kinh-te-sai-gon-p465.epi">
+                                    <img src="https://photo-baomoi.bmcdn.me/8b455803f4411d1f4450.png" alt="">
+                                </a>
+                                <p class="lienquan"><a href="https://www.sgtiepthi.vn/ve-dep-cung-dien-linderhof-o-mien-nam-nuoc-duc/">1 liên quan</a></p>
+                                <!-- <p class="gio">4 giờ</p> -->
+                                <i class="clock-icon fa-regular fa-clock"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- bên phải-->
+                    <div class="noidungdautien-benphai">
+                        <div class="noidungdautien-benphai1">
+                            <div class="noidungdautien-benphai1-1">
+                                <div class="box-benphai">
+                                    <div class="box-anhbenphai">
+                                        <a href="https://baomoi.com/tan-tich-thanh-dia-cua-tinh-yeu-va-su-sinh-san-hy-lap-co-dai-c47181559.epi">
+                                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_10_10_180_47181559/e81fd095edd904875dc8.jpg.webp" alt="">
+
+                                        </a>
+                                    </div>
+                                    <div class="box-noidungbenphai">
+                                        <p><a href="https://baomoi.com/tan-tich-thanh-dia-cua-tinh-yeu-va-su-sinh-san-hy-lap-co-dai-c47181559.epi">Tàn tích thánh địa của tình yêu Hy Lạp cổ đại
+
+                                        </a></p>
+                                    </div>
+                                    <div class="box-ttanh">
+                                        <a href="https://baomoi.com/bao-kien-thuc-p180.epi">
+                                            <img src="https://photo-baomoi.bmcdn.me/e9b048137951900fc940.png" alt="">
+                                        </a>
+                                        <!-- <p class="lienquan1"><a href="https://toquoc.vn/bao-quoc-te-goi-y-den-nhung-vung-bien-dep-nhat-o-viet-nam-2023101311122599.htm">1 liên quan</a></p> -->
+                                        <i class="clock-icon fa-regular fa-clock"></i>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="noidungdautien-benphai1-2">
+                                <div class="box-benphai">
+                                    <div class="box-anhbenphai">
+                                        <a href="https://kienthuc.net.vn/kho-tri-thuc/kham-pha-de-nhat-mieu-hoanh-trang-nhat-trung-quoc-1908104.html">
+                                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_10_09_180_47164243/b04035e4f6a91ff746b8.jpg.webp" alt="">
+
+                                        </a>
+                                    </div>
+                                    <div class="box-noidungbenphai">
+                                        <p><a href="https://kienthuc.net.vn/kho-tri-thuc/kham-pha-de-nhat-mieu-hoanh-trang-nhat-trung-quoc-1908104.html">Khám phá “đệ nhất miếu” hoành tráng nhất Trung Quốc
+
+
+
+                                        </a></p>
+                                    </div>
+                                    <div class="box-ttanh">
+                                        <a href="https://baomoi.com/bao-kien-thuc-p180.epi">
+                                            <img src="https://photo-baomoi.bmcdn.me/e9b048137951900fc940.png" alt="">
+                                        </a>
+                                        <!-- <p class="lienquan1"><a href="https://vov.vn/du-lich/anh-cua-ban/non-nuoc-huu-tinh-noi-dong-quay-son-post1051942.vov">1 liên quan</a></p> -->
+                                        <i class="clock-icon fa-regular fa-clock"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="noidungdautien-benphai2">
+                            <div class="noidungdautien-benphai1-1">
+                                <div class="box-benphai">
+                                    <div class="box-anhbenphai">
+                                        <a href="https://tienphong.vn/kham-pha-thanh-pho-hinh-bat-quai-doc-nhat-vo-nhi-khong-so-tac-duong-ngap-lut-post1576055.tpo">
+                                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_02_503_46807582/f7d69611665c8f02d64d.jpg.webp" alt="">
+
+                                        </a>
+                                    </div>
+                                    <div class="box-noidungbenphai">
+                                        <p><a href="https://tienphong.vn/kham-pha-thanh-pho-hinh-bat-quai-doc-nhat-vo-nhi-khong-so-tac-duong-ngap-lut-post1576055.tpo">Khám phá thành phố hình bát quái 'độc nhất vô nhị'
+
+                                        </a></p>
+                                    </div>
+                                    <div class="box-ttanh">
+                                        <a href="https://baomoi.com/bao-tien-phong-p20.epi">
+                                            <img src="https://photo-baomoi.bmcdn.me/b3a88dc75084b9dae095.png" alt="">
+                                        </a>
+                                        <!-- <p class="lienquan1"><a href="https://dulich.petrotimes.vn/ve-ca-mau-kham-pha-khu-du-lich-sinh-thai-hoa-rung-u-minh-696417.html">1 liên quan</a></p> -->
+                                        <i class="clock-icon fa-regular fa-clock"></i>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="noidungdautien-benphai1-2">
+                                <div class="box-benphai">
+                                    <div class="box-anhbenphai">
+                                        <a href="https://www.sgtiepthi.vn/den-han-quoc-ghe-tham-lang-dan-gian-yangdong-vao-thu/">
+                                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_10_08_465_47158002/9d583e98fcd5158b4cc4.jpg.webp" alt="">
+
+                                        </a>
+                                    </div>
+                                    <div class="box-noidungbenphai">
+                                        <p><a href="https://www.sgtiepthi.vn/den-han-quoc-ghe-tham-lang-dan-gian-yangdong-vao-thu/">Đến Hàn Quốc, ghé thăm làng dân gian Yangdong vào Thu
+
+
+
+
+                                        </a></p>
+                                    </div>
+                                    <div class="box-ttanh">
+                                        <a href="https://www.sgtiepthi.vn/den-han-quoc-ghe-tham-lang-dan-gian-yangdong-vao-thu/">
+                                            <img src="https://photo-baomoi.bmcdn.me/8b455803f4411d1f4450.png" alt="">
+                                        </a>
+                                        <!-- <p class="lienquan1"><a href="https://baodienbienphu.com.vn/tin-tuc/van-hoa/209632/ben-dong-nam-ngam">1 liên quan</a></p> -->
+                                        <i class="clock-icon fa-regular fa-clock"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <!-- nội dung phần tiếp theo -->
+            <div class="noidungtieptheo">
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://tcdulichtphcm.vn//du-khao/nhung-ngoi-chua-va-canh-dong-lua-ben-dong-song-mekong-hung-vi-o-lao-c14a61523.html">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_10_07_603_47151822/cfa9c37f0232eb6cb223.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://tcdulichtphcm.vn//du-khao/nhung-ngoi-chua-va-canh-dong-lua-ben-dong-song-mekong-hung-vi-o-lao-c14a61523.html">Những ngôi chùa và cánh đồng lúa bên dòng sông Mekong hùng vĩ ở Lào
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://baomoi.com/bao-tien-phong-p20.epi">
+                            <img src="https://photo-baomoi.bmcdn.me/a56d6f27466aaf34f67b.png" alt="">
+                        </a>
+                        <!-- <p><a href="https://baomoi.com/tin-lien-quan-t36319494.epi">1 liên quan</a></p> -->
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://vietnamnet.vn/song-bang-trang-va-den-dac-san-cua-pakistan-2197227.html">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_10_08_23_47157603/23e7f317315ad804814b.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://vietnamnet.vn/song-bang-trang-va-den-dac-san-cua-pakistan-2197227.html">Kỳ thú sông băng trắng, đen ở Pakistan
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://vietnamnet.vn/song-bang-trang-va-den-dac-san-cua-pakistan-2197227.html">
+                            <img src="https://photo-baomoi.bmcdn.me/26dc73b3aef047ae1ee1.png" alt="">
+                        </a>
+                        <!-- <p><a href="https://baomoi.com/tin-lien-quan-t36319494.epi">38 liên quan</a></p> -->
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://vov.vn/du-lich/check-in/kham-pha-co-do-luangprabang-di-san-the-gioi-tai-lao-post1050200.vov">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_10_06_65_47137218/72698a084d45a41bfd54.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://vov.vn/du-lich/check-in/kham-pha-co-do-luangprabang-di-san-the-gioi-tai-lao-post1050200.vov">Khám phá cố đô Luangprabang - Di sản thế giới tại Lào
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://vov.vn/du-lich/check-in/kham-pha-co-do-luangprabang-di-san-the-gioi-tai-lao-post1050200.vov">
+                            <img src="https://photo-baomoi.bmcdn.me/a1493a27e7640e3a5775.png" alt="">
+                        </a>
+                        <!-- <p><a href="https://tcdulichtphcm.vn//du-khao/ngoi-chua-lon-bac-nhat-the-gioi-o-nui-that-tinh-dat-phat-coi-tran-gian-c14a61726.html">1 liên quan</a></p> -->
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="noidungtieptheo">
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://vtc.vn/cay-cau-tren-may-o-trung-quoc-phai-dung-ten-lua-de-xay-ar824977.html">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_10_05_83_47132305/771ffdff3ab2d3ec8aa3.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://vtc.vn/cay-cau-tren-may-o-trung-quoc-phai-dung-ten-lua-de-xay-ar824977.html">Cây cầu 'trên mây' ở Trung Quốc, phải dùng tên lửa để xây
+
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://vtc.vn/cay-cau-tren-may-o-trung-quoc-phai-dung-ten-lua-de-xay-ar824977.html">
+                            <img src="https://photo-baomoi.bmcdn.me/6eede58338c0d19e88d1.png" alt="">
+                        </a>
+                        <p><a href="https://vtc.vn/cay-cau-tren-may-o-trung-quoc-phai-dung-ten-lua-de-xay-ar824977.html">1 liên quan</a></p>
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://kienthuc.net.vn/kho-tri-thuc/soi-tung-ngoc-ngach-toa-thanh-huyen-thoai-cua-nguoi-hy-lap-co-1906940.html">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_10_03_180_47113250/38690b4ecf03265d7f12.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://kienthuc.net.vn/kho-tri-thuc/soi-tung-ngoc-ngach-toa-thanh-huyen-thoai-cua-nguoi-hy-lap-co-1906940.html">Soi từng ngóc ngách tòa thành huyền thoại của người Hy Lạp cổ
+
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://kienthuc.net.vn/kho-tri-thuc/soi-tung-ngoc-ngach-toa-thanh-huyen-thoai-cua-nguoi-hy-lap-co-1906940.html">
+                            <img src="https://photo-baomoi.bmcdn.me/e9b048137951900fc940.png" alt="">
+                        </a>
+                        <!-- <p><a href="https://vietnamnet.vn/hon-1-000-cap-kho-khan-cuoi-tap-the-duoc-make-up-mien-phi-2197981.html">1 liên quan</a></p> -->
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://kinhtedothi.vn/mua-thu-chau-au-noi-nao-nen-den.html">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_10_03_11_47112151/174091355278bb26e269.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://kinhtedothi.vn/mua-thu-chau-au-noi-nao-nen-den.html">Mùa Thu châu Âu: nơi nào nên đến?
+
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://kinhtedothi.vn/mua-thu-chau-au-noi-nao-nen-den.html">
+                            <img src="https://photo-baomoi.bmcdn.me/8ac1a1ae7ced95b3ccfc.png" alt="">
+                        </a>
+                        <!-- <p><a href="https://baomoi.com/asiad-19-t36301942.epi">65 liên quan</a></p> -->
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <br><br>
+            <div class="noidungtieptheo">
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://tcdulichtphcm.vn//du-khao/mua-ngam-la-thu-o-kyoto-c14a61251.html">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_10_02_603_47101904/c56cf5cd3e80d7de8e91.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://tcdulichtphcm.vn//du-khao/mua-ngam-la-thu-o-kyoto-c14a61251.html">Mùa ngắm lá thu ở Kyoto
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://baomoi.com/bao-tin-tuc-ttxvn-p294.epi">
+                            <img src="https://photo-baomoi.bmcdn.me/bb071048550abc54e51b.png" alt="">
+                        </a>
+                        <!-- <p><a href="https://baomoi.com/tin-lien-quan-t36303943.epi">2 liên quan</a></p> -->
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://tapchicongthuong.vn/bai-viet/kham-pha-5-khu-rung-tu-nhien-lon-nhat-the-gioi-111627.htm">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_10_02_503_47101908/3cb83119fa54130a4a45.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://tapchicongthuong.vn/bai-viet/kham-pha-5-khu-rung-tu-nhien-lon-nhat-the-gioi-111627.htm">Khám phá 5 khu rừng tự nhiên lớn nhất thế giới
+
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://baomoi.com/bao-phap-luat-tp-hcm-p114.epi">
+                            <img src="https://photo-baomoi.bmcdn.me/f12dd0420d01e45fbd10.png" alt="">
+                        </a>
+                        <!-- <p><a href="https://baomoi.com/chiem-nguong-ve-dep-ruong-bac-thang-mu-cang-chai-mua-lua-chin-r47170266.epi#topcontent|timeline|index12">1 liên quan</a></p> -->
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://vtc.vn/chiem-nguong-ve-dep-thanh-pho-co-kinh-o-iran-ar823737.html">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_10_01_83_47091071/7bfe14cede8337dd6e92.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://vtc.vn/chiem-nguong-ve-dep-thanh-pho-co-kinh-o-iran-ar823737.html">Chiêm ngưỡng vẻ đẹp thành phố cổ kính ở Iran
+
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://baomoi.com/bao-cong-luan-p197.epi">
+                            <img src="https://photo-baomoi.bmcdn.me/9f18981d9050790e2041.png" alt="">
+                        </a>
+                        <p><a href="https://vtc.vn/chiem-nguong-ve-dep-thanh-pho-co-kinh-o-iran-ar823737.html">1 liên quan</a></p>
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="noidungtieptheo">
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://vtc.vn/duong-sat-vuot-bien-nhanh-nhat-trung-quoc-toc-do-350-km-h-ar823879.html">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_10_01_83_47090717/74d2aebe67f38eadd7e2.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://vtc.vn/duong-sat-vuot-bien-nhanh-nhat-trung-quoc-toc-do-350-km-h-ar823879.html">Đường sắt vượt biển nhanh nhất Trung Quốc tốc độ 350 km/h
+
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://baomoi.com/bao-nguoi-lao-dong-p15.epi">
+                            <img src="https://photo-baomoi.bmcdn.me/0b89da8919caf094a9db.png" alt="">
+                        </a>
+                        <p><a href="https://vtc.vn/duong-sat-vuot-bien-nhanh-nhat-trung-quoc-toc-do-350-km-h-ar823879.html">1 liên quan</a></p>
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://vov.vn/du-lich/chiem-nguong-ve-dep-co-kinh-thanh-pho-yazd-iran-post1049647.vov">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_10_01_65_47089142/1c2d4d9784da6d8434cb.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://vov.vn/du-lich/chiem-nguong-ve-dep-co-kinh-thanh-pho-yazd-iran-post1049647.vov">Chiêm ngưỡng vẻ đẹp cổ kính thành phố Yazd, Iran
+
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://baomoi.com/truyen-hinh-thong-tan-p345.epi">
+                            <img src="https://photo-baomoi.bmcdn.me/0b89da8919caf094a9db.png" alt="">
+                        </a>
+                        <p><a href="https://vov.vn/du-lich/chiem-nguong-ve-dep-co-kinh-thanh-pho-yazd-iran-post1049647.vov">1 liên quan</a></p>
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://congdankhuyenhoc.vn/tham-lang-chai-co-va-chiem-nguong-khung-canh-hoang-hon-ngoan-muc-o-dao-lantau-hong-kong-17923092911212771.htm">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_29_601_47071112/398aca090444ed1ab455.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://congdankhuyenhoc.vn/tham-lang-chai-co-va-chiem-nguong-khung-canh-hoang-hon-ngoan-muc-o-dao-lantau-hong-kong-17923092911212771.htm">Thăm làng chài cổ ở đảo Lantau, Hồng Kông
+
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://baomoi.com/chuyen-trang-an-ninh-thu-do-bao-cong-an-nhan-dan-p106.epi">
+                            <img src="https://photo-baomoi.bmcdn.me/579c7af3a7b04eee17a1.png" alt="">
+                        </a>
+                        <!-- <p><a href="https://baomoi.com/phong-chay-chua-chay-t27387460.epi">753 liên quan</a></p> -->
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="noidungtieptheo">
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://doanhnghiepvn.vn/kham-pha/ngan-ngo-danh-thang-xu-tuyen/20230928095755478">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_29_304_47067034/e5156312ae5f47011e4e.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://doanhnghiepvn.vn/kham-pha/ngan-ngo-danh-thang-xu-tuyen/20230928095755478">Ngẩn ngơ danh thắng xứ Tuyên
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://baomoi.com/bao-phap-luat-tp-hcm-p114.epi">
+                            <img src="https://photo-baomoi.bmcdn.me/f12dd0420d01e45fbd10.png" alt="">
+                        </a>
+                        <p><a href="https://doanhnghiepvn.vn/kham-pha/ngan-ngo-danh-thang-xu-tuyen/20230928095755478">1 liên quan</a></p>
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://baotintuc.vn/du-lich/thiet-ke-an-tuong-cua-bao-tang-co-cung-phia-nam-dai-loan-trung-quoc-20230927152751001.htm">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_28_294_47055967/f9902301ef4c06125f5d.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://baotintuc.vn/du-lich/thiet-ke-an-tuong-cua-bao-tang-co-cung-phia-nam-dai-loan-trung-quoc-20230927152751001.htm">Thiết kế ấn tượng của Bảo tàng Cố Cung phía Nam Đài Loan
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://baomoi.com/chuyen-trang-sinh-vien-viet-nam-bao-tien-phong-p176.epi">
+                            <img src="https://photo-baomoi.bmcdn.me/03bb72d4af9746c91f86.png" alt="">
+                        </a>
+                        <!-- <p><a href="https://dulich.petrotimes.vn/tan-huong-khong-gian-da-lat-giua-long-quang-ninh-694067.html">1 liên quan</a></p> -->
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://www.baogiaothong.vn/cho-duong-sat-maeklong-khu-cho-nguy-hiem-nhat-the-gioi-192230927011012776.htm">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_27_30_47051306/2bb1f8f02bbdc2e39bac.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://www.baogiaothong.vn/cho-duong-sat-maeklong-khu-cho-nguy-hiem-nhat-the-gioi-192230927011012776.htm">Chợ đường sắt Maeklong - khu chợ nguy hiểm nhất thế giới
+
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://baomoi.com/bao-sai-gon-giai-phong-p17.epi">
+                            <img src="https://photo-baomoi.bmcdn.me/a60983665e25b77bee34.png" alt="">
+                        </a>
+                        <!-- <p><a href="https://www.sggp.org.vn/anh-tho-ho-xay-nha-giup-nguoi-ngheo-post707388.html">1 liên quan</a></p> -->
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+            </div>
+
+            <br><br>
+            <div class="noidungtieptheo">
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://baotintuc.vn/the-gioi/ben-trong-toa-nha-ma-47-tang-bo-hoang-noi-tieng-o-thai-lan-20230925131053244.htm">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_25_294_47031386/997f6c42bd0f54510d1e.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://baotintuc.vn/the-gioi/ben-trong-toa-nha-ma-47-tang-bo-hoang-noi-tieng-o-thai-lan-20230925131053244.htm">Bên trong toà 'nhà ma' 47 tầng bỏ hoang nổi tiếng ở Thái Lan
+
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://baomoi.com/bao-nguoi-lao-dong-p15.epi">
+                            <img src="https://photo-baomoi.bmcdn.me/0b89da8919caf094a9db.png" alt="">
+                        </a>
+                        <!-- <p><a href="https://baomoi.com/tin-lien-quan-t36315079.epi">3 liên quan</a></p> -->
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://baomoi.com/nhung-quoc-gia-co-nhieu-di-san-duoc-unesco-cong-nhan-r47016374.epi#topcontent|timeline|index25">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_24_595_47016374/f6f86f2ab96750390976.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://baomoi.com/nhung-quoc-gia-co-nhieu-di-san-duoc-unesco-cong-nhan-r47016374.epi#topcontent|timeline|index25">Những quốc gia có nhiều di sản được UNESCO công nhận
+
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://baomoi.com/bao-ha-tinh-p281.epi">
+                            <img src="https://photo-baomoi.bmcdn.me/58660f09d24a3b14625b.png" alt="">
+                        </a>
+                        <!-- <p><a href="https://baomoi.com/thcs-thach-kim-t36266493.epi">15 liên quan</a></p> -->
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://kienthuc.net.vn/the-gioi/me-man-nhung-thi-tran-co-dep-tua-tranh-ve-tren-khap-the-gioi-1902836.html">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_23_180_47013616/60dab3cf67828edcd793.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://kienthuc.net.vn/the-gioi/me-man-nhung-thi-tran-co-dep-tua-tranh-ve-tren-khap-the-gioi-1902836.html">Mê mẩn những thị trấn cổ đẹp tựa tranh vẽ trên khắp thế giới
+
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://phunuvietnam.vn/nu-chien-si-mu-noi-xanh-nen-noi-nho-nha-tinh-nguyen-o-lai-them-1-nam-lam-nhiem-vu-gin-giu-hoa-binh-20230928105913718.htm">
+                            <img src="https://photo-baomoi.bmcdn.me/8dd302bddffe36a06fef.png" alt="">
+                        </a>
+                        <!-- <p><a href="https://baohatinh.vn/nui-hong-song-la/khen-thuong-2-hoc-sinh-cuu-cac-em-nho-khoi-duoi-nuoc/254923.htm">1 liên quan</a></p> -->
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+            </div>
+
+            <br><br>
+            <div class="noidungtieptheo">
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://www.sgtiepthi.vn/ngam-ho-nuoc-bac-thang-o-khu-thang-canh-hoang-long-trung-quoc/">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_23_465_47012647/abcecefc1ab1f3efaaa0.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://www.sgtiepthi.vn/ngam-ho-nuoc-bac-thang-o-khu-thang-canh-hoang-long-trung-quoc/">Ngắm ‘hồ nước bậc thang’ ở khu thắng cảnh Hoàng Long, Trung Quốc
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://baomoi.com/tap-chi-kinh-te-moi-truong-p590.epi">
+                            <img src="https://photo-baomoi.bmcdn.me/c09017784c3aa564fc2b.png" alt="">
+                        </a>
+                        <!-- <p><a href="https://baomoi.com/le-hoi-thac-ban-gioc-t36303207.epi">15 liên quan</a> -->
+                        </p>
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://baotintuc.vn/the-gioi/nhung-ngoi-lang-ky-la-bac-nhat-nhat-ban-20230922182928649.htm">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_23_294_47007450/c86ea0dc74919dcfc480.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://baotintuc.vn/the-gioi/nhung-ngoi-lang-ky-la-bac-nhat-nhat-ban-20230922182928649.htm">Những ngôi làng kỳ lạ bậc nhất Nhật Bản
+
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://baoangiang.com.vn/">
+                            <img src="https://photo-baomoi.bmcdn.me/2a5b6e34b3775a290366.png" alt="">
+                        </a>
+                        <p><a href="https://baotintuc.vn/the-gioi/nhung-ngoi-lang-ky-la-bac-nhat-nhat-ban-20230922182928649.htm">1 liên quan</a></p>
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://giadinh.suckhoedoisong.vn/cong-vien-trong-nha-lon-nhat-the-gioi-nhin-nhu-phi-thuyen-ngoai-hanh-tinh-172230906074807179.htm">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_21_91_46988601/84b3a4247d699437cd78.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://giadinh.suckhoedoisong.vn/cong-vien-trong-nha-lon-nhat-the-gioi-nhin-nhu-phi-thuyen-ngoai-hanh-tinh-172230906074807179.htm">Công viên trong nhà lớn nhất thế giới nhìn như phi thuyền ngoài hành tinh
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://giadinh.suckhoedoisong.vn/cong-vien-trong-nha-lon-nhat-the-gioi-nhin-nhu-phi-thuyen-ngoai-hanh-tinh-172230906074807179.htm">
+                            <img src="https://photo-baomoi.bmcdn.me/87bb25544116a848f107.png" alt="">
+                        </a>
+                        <p><a href="https://giadinh.suckhoedoisong.vn/cong-vien-trong-nha-lon-nhat-the-gioi-nhin-nhu-phi-thuyen-ngoai-hanh-tinh-172230906074807179.htm">1 liên quan</a></p>
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <br><br>
+            <div class="noidungtieptheo">
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://kienthuc.net.vn/kho-tri-thuc/kham-pha-lang-mo-co-noi-tieng-nhat-de-che-la-ma-co-dai-1901375.html">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_20_180_46982869/25f61174c93920677928.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://kienthuc.net.vn/kho-tri-thuc/kham-pha-lang-mo-co-noi-tieng-nhat-de-che-la-ma-co-dai-1901375.html">Khám phá lăng mộ cổ nổi tiếng nhất đế chế La Mã cổ đại
+
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://baomoi.com/bao-sai-gon-giai-phong-p17.epi">
+                            <img src="https://photo-baomoi.bmcdn.me/a60983665e25b77bee34.png" alt="">
+                        </a>
+                        <p><a href="https://www.vietnamplus.vn/kham-pha-hang-rai-o-ninh-thuan-tuyet-tac-thien-nhien-ky-ao/899966.vnp">1 liên quan</a></p>
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://kienthuc.net.vn/the-gioi/ve-dep-don-tim-cua-nhung-khu-rung-xanh-muot-tren-the-gioi-1902442.html">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_20_180_46982425/8fd57167a92a4074193b.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://kienthuc.net.vn/the-gioi/ve-dep-don-tim-cua-nhung-khu-rung-xanh-muot-tren-the-gioi-1902442.html">Vẻ đẹp đốn tim của những khu rừng xanh mướt trên thế giới
+
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://baomoi.com/bao-vietnamnet-p23.epi">
+                            <img src="https://photo-baomoi.bmcdn.me/26dc73b3aef047ae1ee1.png" alt="">
+                        </a>
+                        <!-- <p><a href="https://www.sgtiepthi.vn/ve-an-giang-mua-nuoc-tran-dong/">1 liên quan</a></p> -->
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href=https://mekongasean.vn/cac-di-san-the-gioi-moi-duoc-unesco-cong-bo-nam-2023-post27121.html">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_20_595_46978404/a33f8b0e5443bd1de452.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://mekongasean.vn/cac-di-san-the-gioi-moi-duoc-unesco-cong-bo-nam-2023-post27121.html">Các Di sản Thế giới mới được UNESCO công bố năm 2023
+
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://baomoi.com/bao-vietnamnet-p23.epi">
+                            <img src="https://photo-baomoi.bmcdn.me/f12dd0420d01e45fbd10.png" alt="">
+                        </a>
+                        <!-- <p><a href="https://1thegioi.vn/ngoi-chua-hon-130-nam-tuoi-dep-long-lay-o-mien-tay-nam-bo-207314.htmll">1 liên quan</a></p> -->
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+            </div>
+
+            <br><br>
+            <div class="noidungtieptheo">
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://www.baogiaothong.vn/cung-duong-tuyet-doc-dao-co-mot-khong-hai-tai-nhat-ban-192230919110839568.htm">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_19_30_46969062/bb2c785fa6124f4c1603.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://www.baogiaothong.vn/cung-duong-tuyet-doc-dao-co-mot-khong-hai-tai-nhat-ban-192230919110839568.htm">Cung đường tuyết độc đáo có một không hai tại Nhật Bản
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://baomoi.com/bao-quan-doi-nhan-dan-p16.epi">
+                            <img src="https://photo-baomoi.bmcdn.me/fdf3989c45dfac81f5ce.png" alt="">
+                        </a>
+                        <!-- <p><a href="https://baomoi.com/phu-quoc-t36307381.epi">17 liên quan</a></p> -->
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://vtc.vn/con-duong-doc-dao-nhat-nhi-the-gioi-chi-xuat-hien-dung-2-lan-moi-ngay-ar820715.html">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_18_83_46958098/b4ac1370ce3d27637e2c.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://vtc.vn/con-duong-doc-dao-nhat-nhi-the-gioi-chi-xuat-hien-dung-2-lan-moi-ngay-ar820715.html">Con đường độc đáo nhất nhì thế giới, chỉ xuất hiện đúng 2 lần mỗi ngày
+
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://baomoi.com/bao-vov-p65.epi">
+                            <img src="https://photo-baomoi.bmcdn.me/a1493a27e7640e3a5775.png" alt="">
+                        </a>
+                        <!-- <p><a href="https://baomoi.com/tin-lien-quan-t36309311.epi">2 liên quan</a></p> -->
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://baotintuc.vn/du-lich/nhung-ngoi-lang-co-trung-quoc-dang-ghe-tham-nhat-vao-mua-thu-20230918102938067.htm">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_18_294_46956530/be5889be54f3bdade4e2.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://baotintuc.vn/du-lich/nhung-ngoi-lang-co-trung-quoc-dang-ghe-tham-nhat-vao-mua-thu-20230918102938067.htm">Những ngôi làng cổ Trung Quốc đáng ghé thăm nhất vào mùa thu
+
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://baomoi.com/bao-to-quoc-p101.epi">
+                            <img src="https://photo-baomoi.bmcdn.me/1ab14ade979d7ec3278c.png" alt="">
+                        </a>
+                        <p><a href="https://baotintuc.vn/du-lich/nhung-ngoi-lang-co-trung-quoc-dang-ghe-tham-nhat-vao-mua-thu-20230918102938067.htm">1 liên quan</a></p>
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+            </div>
+
+            <br><br>
+            <div class="noidungtieptheo">
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://hanoimoi.vn/cartagena-thanh-pho-gay-thuong-nho-642153.html">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_17_8_46946208/70ff2c40cf0d26537f1c.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://hanoimoi.vn/cartagena-thanh-pho-gay-thuong-nho-642153.html">Cartagena - thành phố “gây thương nhớ”
+
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://baomoi.com/bao-nghe-an-p274.epi">
+                            <img src="https://photo-baomoi.bmcdn.me/493a3f55e2160b485207.png" alt="">
+                        </a>
+                        <!-- <p><a href="https://baomoi.com/duong-minh-thong-t36225347.epi">5 liên quan</a></p> -->
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://nhandan.vn/kham-pha-di-hoa-vien-cung-dien-mua-he-o-bac-kinh-trung-quoc-post772533.html">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_16_14_46939564/6a80ba805bcdb293ebdc.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://nhandan.vn/kham-pha-di-hoa-vien-cung-dien-mua-he-o-bac-kinh-trung-quoc-post772533.html">Khám phá Di Hòa viên - cung điện mùa hè ở Bắc Kinh, Trung Quốc
+
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://baomoi.com/bao-quan-doi-nhan-dan-p16.epi">
+                            <img src="https://photo-baomoi.bmcdn.me/fdf3989c45dfac81f5ce.png" alt="">
+                        </a>
+                        <p><a href="https://nhandan.vn/kham-pha-di-hoa-vien-cung-dien-mua-he-o-bac-kinh-trung-quoc-post772533.html">1 liên quan</a></p>
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://www.baogiaothong.vn/stelvio-tuyet-tac-duong-deo-nuoc-y-voi-48-khuc-cua-lien-tiep-192230915103844904.htm">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_15_30_46930321/af223b60db2d32736b3c.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://www.baogiaothong.vn/stelvio-tuyet-tac-duong-deo-nuoc-y-voi-48-khuc-cua-lien-tiep-192230915103844904.htm">Stelvio - Tuyệt tác đường đèo nước Ý với 48 khúc cua liên tiếp
+
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://baomoi.com/bao-tien-phong-p20.epi">
+                            <img src="https://photo-baomoi.bmcdn.me/b3a88dc75084b9dae095.png" alt="">
+                        </a>
+                        <!-- <p><a href="https://www.vietnamplus.vn/du-lich-co-do-hue-vao-mua-thu-cung-nhung-trai-nghiem-moi-la/899777.vnp">1 liên quan</a></p> -->
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+            </div>
+
+            <br><br>
+            <div class="noidungtieptheo">
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://www.baogiaothong.vn/ruong-bac-thang-yuanyang-dep-nhu-tranh-o-trung-quoc-192230913091743137.htm">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_15_518_46929794/9f652516c55b2c05754a.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://www.baogiaothong.vn/ruong-bac-thang-yuanyang-dep-nhu-tranh-o-trung-quoc-192230913091743137.htm">Ruộng bậc thang Yuanyang đẹp như tranh ở Trung Quốc
+
+
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://baomoi.com/tap-chi-gia-dinh-viet-nam-p251.epi">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_13_30_46906980/278320bac5f72ca975e6.jpg.webp" alt="">
+                        </a>
+                        <!-- <p><a href="https://phunu.nld.com.vn/diem-den/nhung-thi-tran-dep-nhat-the-gioi-ai-cung-khao-khat-mot-lan-ghe-tham-20230817113653716.htm">1 liên quan</a></p> -->
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://phunuvietnam.vn/bi-an-vung-dat-toan-cay-cau-khong-lo-cao-nhat-the-gioi-cua-trung-quoc-20230911225906032.htm">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_12_338_46894349/38e11154f5191c474508.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://phunuvietnam.vn/bi-an-vung-dat-toan-cay-cau-khong-lo-cao-nhat-the-gioi-cua-trung-quoc-20230911225906032.htm">Bí ẩn vùng đất toàn cây cầu "khổng lồ" cao nhất thế giới của Trung Quốc
+
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://baomoi.com/bao-vietnamnet-p23.epi">
+                            <img src="https://photo-baomoi.bmcdn.me/26dc73b3aef047ae1ee1.png" alt="">
+                        </a>
+                        <!-- <p><a href="https://www.sgtiepthi.vn/ky-vi-hem-vuc-phong-luu-o-ha-giang/">1 liên quan</a></p> -->
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://www.baogiaothong.vn/cay-cau-dan-nuoc-3-tang-doc-dao-cua-nguoi-la-ma-co-dai-192230911131904381.htm">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_11_30_46887756/26f1a75d4c10a54efc01.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://www.baogiaothong.vn/cay-cau-dan-nuoc-3-tang-doc-dao-cua-nguoi-la-ma-co-dai-192230911131904381.htm">Cây cầu dẫn nước 3 tầng độc đáo của người La Mã cổ đại
+
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://baomoi.com/bao-tien-phong-p20.epi">
+                            <img src="https://photo-baomoi.bmcdn.me/b3a88dc75084b9dae095.png" alt="">
+                        </a>
+                        <p><a href="https://www.baogiaothong.vn/cay-cau-dan-nuoc-3-tang-doc-dao-cua-nguoi-la-ma-co-dai-192230911131904381.htm">1 liên quan</a></p>
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="noidungtieptheo">
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://vov.vn/du-lich/nhung-dia-diem-dep-nhat-han-quoc-nen-ghe-tham-mua-thu-nay-post1044931.vov">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_11_65_46883974/7d82db8131ccd89281dd.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://vov.vn/du-lich/nhung-dia-diem-dep-nhat-han-quoc-nen-ghe-tham-mua-thu-nay-post1044931.vov">Những địa điểm đẹp nhất Hàn Quốc nên ghé thăm mùa thu này
+
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://baomoi.com/bao-tien-phong-p20.epi">
+                            <img src="https://photo-baomoi.bmcdn.me/b3a88dc75084b9dae095.png" alt="">
+                        </a>
+                        <!-- <p><a href="https://baomoi.com/duong-minh-thong-t36225347.epi">5 liên quan</a></p> -->
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://doanhnghiepvn.vn/kham-pha/ve-dep-cua-nhung-khu-rung-ki-la-tren-the-gioi/20230909094759768">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_10_304_46875559/9b60bdf254bfbde1e4ae.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://doanhnghiepvn.vn/kham-pha/ve-dep-cua-nhung-khu-rung-ki-la-tren-the-gioi/20230909094759768">Vẻ đẹp của những khu rừng kì lạ trên thế giới
+
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://baomoi.com/bao-vietnamnet-p23.epi">
+                            <img src="https://photo-baomoi.bmcdn.me/26dc73b3aef047ae1ee1.png" alt="">
+                        </a>
+                        <!-- <p><a href="https://vietnamnet.vn/nhung-nguoi-la-giup-nu-sinh-ngheo-chinh-phuc-bang-truong-dai-hoc-ngoai-thuong-2190241.html">1 liên quan</a></p> -->
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+                <div class="noidungtieptheo1">
+                    <div class="ndtt-coanh">
+                        <a href="https://doanhnghiepvn.vn/kham-pha/tham-cung-dien-hoang-gia-dat-hang-trieu-la-vang-o-thai-lan/20230909074616896">
+                            <img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_09_304_46874382/c28ee14a0807e159b816.jpg.webp" alt="">
+
+                        </a>
+                    </div>
+                    <div class="ndtt-cond">
+                        <p><a href="https://doanhnghiepvn.vn/kham-pha/tham-cung-dien-hoang-gia-dat-hang-trieu-la-vang-o-thai-lan/20230909074616896">Thăm cung điện hoàng gia dát hàng triệu lá vàng ở Thái Lan
+
+
+                        </a></p>
+                    </div>
+                    <div class="ndtt-cott">
+                        <a href="https://baomoi.com/bao-cong-thuong-p35.epi">
+                            <img src="https://photo-baomoi.bmcdn.me/1efe2391fed2178c4ec3.png" alt="">
+                        </a>
+                        <p><a href="https://doanhnghiepvn.vn/kham-pha/tham-cung-dien-hoang-gia-dat-hang-trieu-la-vang-o-thai-lan/20230909074616896">1 liên quan</a></p>
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            
+
+
+        </div>
+        <a href="https://baomoi.com/kham-pha-the-gioi-top363/trang7.epi">
+            <div class="xemthem">
+                <p><a href="https://baomoi.com/kham-pha-the-gioi-top363/trang7.epi">XEM THÊM</a></p>
+            </div>
+        </a>
+                
+        <section id="footer">
+            <div id="footer-nav">
+                <div class="nav_container">
+                    <img src="https://baomoi-static.bmcdn.me/web/styles/img/desktop-logo-v2.png" alt="" class="footer-logo">
+                    <input type="text" class="search_input" placeholder="Nhập nội dung tìm kiếm">
+                </div>
+            </div>
+            <div id="container">
+                <div class="keyword_list">
+                    <span class="keyword">Rowing</span>
+                    <span class="keyword">Huế</span>
+                    <span class="keyword">Hàn Quốc</span>
+                    <span class="keyword">Americal</span>
+                    <span class="keyword">Báo kinh tế</span>
+                    <span class="keyword">Thành phố Hồ Chí Minh</span>
+                    <span class="keyword">Biển Đông</span>
+                    <span class="keyword">Mạng xã hội</span>
+                    <span class="keyword">Đà Nẵng</span>
+                    <span class="keyword">Nam Bộ</span>
+                    <span class="keyword">Trung Trung Bộ</span>
+                    <span class="keyword">Việt Nam</span>
+                    <span class="keyword">Trung thu</span>
+                    <span class="keyword">Bóng đá</span>
+                    <span class="keyword">IPhone 15 Pro Max</span>
+                    <span class="keyword">Thời tiết</span>
+                    <span class="keyword">Bulgaria </span>
+                    <span class="keyword">Tháng 10</span>
+                    <span class="keyword">Hà Nội</span>
+                    <span class="keyword">Liên Bang Nga</span>
+                    <span class="keyword">Quốc Hội</span>
+                    <span class="keyword">Bất động sản</span>
+                    <span class="keyword">hồ Ba Bể</span>
+                    <span class="keyword">Hải Dương</span>
+                    <span class="keyword">Ngày hội sinh viên</span>
+                    <span class="keyword">Tết cổ truyền</span>
+                    <span class="keyword">Lễ hội Nhật Bản</span>
+                    <span class="keyword">Thừa Thiên Huế</span>
+                    <span class="keyword">Ẩm thực đường phố</span>
+                    <span class="keyword">Phố đi bộ </span>
+                    <span class="keyword">Đảo</span>
+                    <span class="keyword">Tiền điện tử</span>
+                    <span class="keyword">Giá vàng</span>
+                    <span class="keyword">Hài hước</span>
+                    <span class="keyword">Truyện đọc</span>
+                    <span class="keyword">Văn hóa</span>
+                    <span class="keyword">Kinh doanh</span>
+                    <span class="keyword">Khởi nghiệp</span>
+                    <span class="keyword">Ngày hội tuyển sinh</span>
+                    <span class="keyword">Giao lưu văn hóa</span>
+                <span class="keyword">Tìm hiểu</span>
+                <span class="keyword">Học tập</span>
+                <span class="keyword">Sáng chế </span>
+                <span class="keyword">Thời sự</span>
+                <span class="keyword">Văn minh thế giới</span>
+                <span class="keyword">Trang phục truyền thống</span>
+                <span class="keyword">Hài hước</span>
+                <span class="keyword">Nhân văn</span>
+                <span class="keyword">Chuyên gia</span>
+                <span class="keyword">Thú cưng</span>
+            </div>
+            <div class="copyright">
+                <div class="col">
+                    <h1 class="title">LIÊN HỆ</h1>
+                    <ul class="field">
+                        <li>Giới thiệu</li>
+                        <li>Điều khoản sử dụng</li>
+                        <li>Chính sách bảo mật</li>
+                        <li>Quảng cáo</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h1 class="title">KHÁC</h1>
+                    <ul class="field">
+                        <li>Tổng hợp</li>
+                    </ul>
+                </div>
+                <div class="infor">
+                    <p>Giấy phép thiết lập trang thông tin điện tử tổng hợp số 1818/GP-TTĐT do Sở Thông tin và Truyền thông Hà Nội cấp ngày
+                    05/05/2017</p>
+                    <p>Đơn vị thiết lập: Công ty cổ phần công nghệ EPI * Chịu trách nhiệm: Vũ Trọng Cường</p>
+                    <p>Địa chỉ: Tầng 16, Tòa nhà TNR Tower, số 54A Nguyễn Chí Thanh, phường Láng Thượng, quận Đống Đa, Hà Nội.</p>
+                    <p>Điện thoại: (024) 3-542-3555 Email: contact.baomoi@epi.com.vn</p>
+                    <p>BAOMOI tổng hợp và sắp xếp các thông tin tự động</p>
+                    <p>bởi chương trình máy tính</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

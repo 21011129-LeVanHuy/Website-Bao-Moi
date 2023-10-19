@@ -1,0 +1,1711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo Mới - Tin tức 24H, đọc báo mới nhanh nhất hôm nay</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="baomoi.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    
+</head>
+<body>
+    <div id="app">
+        <div id="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="http://127.0.0.1:5500/nong.html"><img src="https://baomoi-static.bmcdn.me/web-v2/prod/v0.5.1/public/images/default-skin/bm-logo.png" alt=""></a>
+                </div>
+                <div class="searchbox">
+                    <input type="text" class="searchbox-input" id="search-item"  placeholder="Nhập nội dung tìm kiếm" onkeyup="search()">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                </div>
+                <div class="contact">
+                    <i class="fa-regular fa-user contact-icon"></i>
+                    <i class="fa-solid fa-mobile contact-icon"></i>
+                </div>
+            </div>
+        </div>
+        <!-- ---SUBNAV--- -->
+        <div id="subnav">
+            <div class="subnav-container">
+                <div class="subnav-topic">
+                    <h3 class="subnav-topic-item"><a href="./nong.html">NÓNG</a></h3>
+                    <h3 class="subnav-topic-item"><a href="./moi.html">MỚI</a></h3>
+                    <h3 class="subnav-topic-item"><a href="./video.html">VIDEO</a></h3>
+                    <h3 class="subnav-topic-item"><a href="./chude.html">CHỦ ĐỀ</a></h3>
+                </div>
+                <div class="subnav-hagtag">
+                    <h3 class="subnav-hagtag-item"><a href="./nangluongtichcuc.html"># Năng lượng tích cực</a></h3>
+                    <h3 class="subnav-hagtag-item"><a href="./khamphavietnam.html"># Khám phá Việt Nam</a></h3>
+                    <h3 class="subnav-hagtag-item"><a href="./khamphathegioi.html"># Khám phá thế giới</a></h3>
+                </div>
+                <i class="fa-solid fa-bars subnav-icon"></i>
+
+                
+            </div>
+
+            <div class="nd-thanh3gach">
+                <div class="nd-trong-thanh3gach">
+                    <div class="nd-dt-trong-thanh3gach">
+                        <div class="nd-bongda-thanh3gach">
+                            <div class="gachdoc"></div>
+                            <p><a href="https://baomoi.com/bong-da.epi">BÓNG ĐÁ</a></p>
+                        </div>
+                        <div class="nd-thegioi-thanh3gach">
+                            <div class="gachdoc1"></div>
+                            <p><a href="https://baomoi.com/the-gioi.epi">THẾ GIỚI</a></p>
+    
+                        </div>
+                        <div class="nd-bongda-thanh3gach">
+                            <div class="ochuadautien">
+                                <div class="gachdoc1"></div>
+                                <p><a href="https://baomoi.com/the-gioi.epi">XÃ HỘI</a></p>
+                            </div>
+                            
+                            <div class="ochuabenduoi">
+                                <p><a href="https://baomoi.com/thoi-su.epi">Thời sự</a></p>
+                                <p><a href="https://baomoi.com/giao-thong.epi">Giao thông</a></p>
+                                <p><a href="https://baomoi.com/moi-truong-khi-hau.epi">Môi trường - khí hậu</a></p>
+    
+                            </div>
+                        </div>
+                        <div class="nd-bongda-thanh3gach">
+                            <div class="ochuadautien">
+                                <div class="gachdoc1"></div>
+                                <p><a href="https://baomoi.com/van-hoa.epi">VĂN HÓA</a></p>
+                            </div>
+                            
+                            <div class="ochuabenduoi1">
+                                <p><a href="https://baomoi.com/nghe-thuat.epi">Nghệ thuật</a></p>
+                                <p><a href="https://baomoi.com/am-thuc.epi">Ẩm thực</a></p>
+                                <p><a href="https://baomoi.com/du-lich.epi">Du lịch</a></p>
+    
+                            </div>
+                        </div>
+                        <div class="nd-bongda-thanh3gach">
+                            <div class="ochuadautien">
+                                <div class="gachdoc1"></div>
+                                <p><a href="https://baomoi.com/kinh-te.epi">KINH TẾ</a></p>
+                            </div>
+                            
+                            <div class="ochuabenduoi2">
+                                <p><a href="https://baomoi.com/lao-dong-viec-lam.epi">Lao động - Việc làm</a></p>
+                                <p><a href="https://baomoi.com/tai-chinh.epi">Tài chính</a></p>
+                                <p><a href="https://baomoi.com/chung-khoan.epi">Chứng khoán</a></p>
+                                <p><a href="https://baomoi.com/kinh-doanh.epi">Kinh doanh</a></p>
+    
+    
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="nd-tt-trong-thanh3gach">
+                        <div class="nd-bongda-thanh3gach">
+                            <div class="ochuadautien">
+                                <div class="gachdoc1"></div>
+                                <p><a href="https://baomoi.com/the-gioi.epi">GIÁO DỤC</a></p>
+                            </div>
+                            
+                            <div class="ochuabenduoi3">
+                                <p><a href="https://baomoi.com/thoi-su.epi">Học bổng - Du học</a></p>
+                                <p><a href="https://baomoi.com/giao-thong.epi">Đào tạo - Thi cử</a></p>
+    
+                            </div>
+                        </div>
+                        <div class="nd-thegioi-thanh3gach">
+                            <div class="ochuadautien">
+                                <div class="gachdoc1"></div>
+                                <p><a href="https://baomoi.com/the-thao.epi">THỂ THAO</a></p>
+                            </div>
+                            
+                            <div class="ochuabenduoi4">
+                                <p><a href="https://baomoi.com/bong-da-quoc-te.epi">Bóng đá quốc tế</a></p>
+                                <p><a href="https://baomoi.com/bong-da-viet-nam.epi">Bóng đá Việt Nam</a></p>
+                                <p><a href="https://baomoi.com/quan-vot.epi">Quần vợt</a></p>
+    
+    
+                            </div>
+    
+                        </div>
+                        <div class="nd-bongda-thanh3gach">
+                            <div class="ochuadautien">
+                                <div class="gachdoc1"></div>
+                                <p><a href="https://baomoi.com/giai-tri.epi">GIẢITRÍ</a></p>
+                            </div>
+                            
+                            <div class="ochuabenduoi">
+                                <p><a href="https://baomoi.com/am-nhac.epi">Âm nhạc</a></p>
+                                <p><a href="https://baomoi.com/thoi-trang.epi">Thời trang</a></p>
+                                <p><a href="https://baomoi.com/dien-anh-truyen-hinh.epi">Điện ảnh - Truyền hình</a></p>
+    
+                            </div>
+                        </div>
+                        <div class="nd-bongda-thanh3gach">
+                            <div class="ochuadautien">
+                                <div class="gachdoc1"></div>
+                                <p><a href="https://baomoi.com/phap-luat.epi">PHÁP LUẬT</a></p>
+                            </div>
+                            
+                            <div class="ochuabenduoi5">
+                                <p><a href="https://baomoi.com/an-ninh-trat-tu.epi">An ninh - Trật tự</a></p>
+                                <p><a href="https://baomoi.com/hinh-su-dan-su.epi">Hình sự - Dân sự</a></p>
+    
+                            </div>
+                        </div>
+                        <div class="nd-bongda-thanh3gach">
+                            <div class="ochuadautien1">
+                                <div class="gachdoc1"></div>
+                                <p><a href="https://baomoi.com/kinh-te.epi">CÔNG NGHỆ</a></p>
+                            </div>
+                            
+                            <div class="ochuabenduoi6">
+                                <p><a href="https://baomoi.com/lao-dong-viec-lam.epi">CNTT-Viễn thông</a></p>
+                                <p><a href="https://baomoi.com/tai-chinh.epi">Thiết bị-Phần cứng</a></p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="nd-cc-trong-thanh3gach">
+                        <div class="nd-bongda-thanh3gach">
+                            <div class="ochuadautien">
+                                <div class="gachdoc1"></div>
+                                <p><a href="https://baomoi.com/the-gioi.epi">KHOA HỌC</a></p>
+                            </div>
+                            
+                            
+                        </div>
+                        <div class="nd-thegioi-thanh3gach">
+                            <div class="ochuadautien">
+                                <div class="gachdoc1"></div>
+                                <p><a href="https://baomoi.com/doi-song.epi">ĐỜI SỐNG</a></p>
+                            </div>
+                            
+                            <div class="ochuabenduoi4">
+                                <p><a href="https://baomoi.com/dinh-duong-lam-dep.epi">Dinh dưỡng-Làm đẹp</a></p>
+                                <p><a href="https://baomoi.com/tinh-yeu-hon-nhan.epi">Tình yêu-Hôn nhân</a></p>
+                                <p><a href="https://baomoi.com/suc-khoe-y-te.epi">Sức khỏe-Y tế</a></p>
+    
+    
+                            </div>
+    
+                        </div>
+                        <div class="nd-bongda-thanh3gach">
+                            <div class="ochuadautien">
+                                <div class="gachdoc1"></div>
+                                <p><a href="https://baomoi.com/giai-tri.epi">XE CỘ</a></p>
+                            </div>
+                            
+                            
+                        </div>
+                        <div class="nd-bongda-thanh3gach">
+                            <div class="ochuadautien">
+                                <div class="gachdoc1"></div>
+                                <p><a href="https://baomoi.com/nha-dat.epi">NHÀ ĐẤT</a></p>
+                            </div>
+                            
+                            <div class="ochuabenduoi7">
+                                <p><a href="https://baomoi.com/quan-ly-quy-hoach.epi">Quản lí-Quy hoạch</a></p>
+                                <p><a href="https://baomoi.com/khong-gian-kien-truc.epi">Không gian-Kiến trúc</a></p>
+    
+                            </div>
+                        </div>
+                        <div class="nd-bongda-thanh3gach">
+                            <div class="ochuadautien1">
+                                <div class="gachdoc1"></div>
+                                <p><a href="https://baomoi.com/kinh-te.epi">CÔNG NGHỆ</a></p>
+                            </div>
+                            
+                            <div class="ochuabenduoi6">
+                                <p><a href="https://baomoi.com/lao-dong-viec-lam.epi">CNTT-Viễn thông</a></p>
+                                <p><a href="https://baomoi.com/tai-chinh.epi">Thiết bị-Phần cứng</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+
+            
+
+            
+        </div>
+
+        
+          <!-- ---NÓNG--- -->
+        <div id="hot">
+            <div class="hot-left">
+                <div class="hot-main">
+                    <div class="hot-main-hover">
+                        <a href="https://tienphong.vn/thu-tuong-pham-minh-chinh-ket-thuc-chuyen-cong-tac-tai-my-len-duong-tham-chinh-thuc-brazil-post1571592.tpo"><img src="https://photo-baomoi.bmcdn.me/w700_r16x9/2023_09_23_20_47010789/d63a6b4abf0756590f16.jpg.webp" alt="" class="hot-main-img"></a>
+                    </div>
+                    <p class="hot-main-title"><a href="https://tienphong.vn/thu-tuong-pham-minh-chinh-ket-thuc-chuyen-cong-tac-tai-my-len-duong-tham-chinh-thuc-brazil-post1571592.tpo">Thủ tướng Phạm Minh Chính kết thúc chuyến công tác tại Mỹ, lên đường thăm chính thức Brazil</a></p>
+                    <div class="note">
+                        <a href="https://baomoi.com/bao-tien-phong/p/20.epi"><img src="https://photo-baomoi.bmcdn.me/b3a88dc75084b9dae095.png" alt="" class="new-logo"></a>
+                        <p class="new-time">2 giờ</p>
+                        <p class="new-relate"><a href="https://baomoi.com/atnd/t/36259057.epi">21 liên quan</a></p>
+                        <i class="clock-icon fa-regular fa-clock"></i>
+                    </div>
+                
+                <div class="video-content">
+                    <div class="video-topic">
+                        <div class="video-hover">
+                            <a href="https://vietnamnet.vn/ket-qua-bong-da-al-nassr-4-3-al-ahli-ronaldo-thang-hoa-2193279.html"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_23_23_47008795/be73cfcc1b81f2dfab90.jpg.webp" alt="" class="video-img"></a>
+                            <!-- <i class="fa-solid fa-video"></i> -->
+                        </div>
+                        <div class="new-none">
+                            <h4 class="new-title"><a href="https://vietnamnet.vn/ket-qua-bong-da-al-nassr-4-3-al-ahli-ronaldo-thang-hoa-2193279.html">Ronaldo lập cú đúp, Al Nassr thắng sau màn rượt đuổi 'điên rồ'</a></h4>
+                            <div class="note">
+                                <a href="https://baomoi.com/bao-cong-luan/p/197.epi"><img src="https://photo-baomoi.bmcdn.me/9f18981d9050790e2041.png" alt="" class="new-logo"></a>
+                                <p class="new-time">15 phút</p>
+                                <i class="clock-icon fa-regular fa-clock"></i>
+                            </div>
+                        </div>
+                   </div>
+                
+                   <div class="video-topic">
+                        <div class="video-hover">
+                            <a href="https://giaoducthoidai.vn/phong-khong-lac-huong-khi-ham-doi-bien-den-bi-tan-cong-post655104.html"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_23_181_47009538/eedf8e565a1bb345ea0a.jpg.webp" alt="" class="video-img"></a>
+                        </div>
+                        <div class="new-none">
+                            <h4 class="new-title"><a href="https://giaoducthoidai.vn/phong-khong-lac-huong-khi-ham-doi-bien-den-bi-tan-cong-post655104.html">Phòng không lạc hướng khi Hạm đội Biển Đen bị tấn công?</a></h4>
+                            <div class="note">
+                                <a href="https://baomoi.com/bao-ha-tinh/p/281.epi"><img src="https://photo-baomoi.bmcdn.me/58660f09d24a3b14625b.png" alt="" class="new-logo"></a>
+                                <p class="new-time">4 phút</p>
+                                <i class="clock-icon fa-regular fa-clock"></i>
+
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="video-topic">
+                        <div class="video-hover">
+                            <a href="https://www.nguoiduatin.vn/phao-ukraine-lien-tiep-bi-hoa-luc-nga-pha-huy-tren-chien-truong-a627823.html"><img src="https://gif-baomoi.bmcdn.me/w300_r3x2/2023_09_23_296_47009593/df6233ece7a10eff57b0.gif" alt="" class="video-img"></a>
+                        </div>
+                        <div class="new-none">
+                            <h4 class="new-title"><a href="https://www.nguoiduatin.vn/phao-ukraine-lien-tiep-bi-hoa-luc-nga-pha-huy-tren-chien-truong-a627823.html">Pháo Ukraine liên tiếp bị hoả lực Nga phá huỷ trên chiến trường</a></h4>
+                            <div class="note">
+                                <a href="https://baomoi.com/bao-vietnamnet/p/23.epi"><img src="https://photo-baomoi.bmcdn.me/26dc73b3aef047ae1ee1.png" alt="" class="new-logo"></a>
+                                <p class="new-time">10 phút</p>
+                                <i class="clock-icon fa-regular fa-clock"></i>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="new-content">
+                <div class="img-hover">
+                    <a href="https://baomoi.com/c/46981020.epi"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_20_106_46981020/8650b6916edc8782decd.jpg.webp" alt="" class="new-img"></a>
+                </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://baomoi.com/c/46981020.epi">Từ năm 2025, dự kiến kỳ thi tốt nghiệp THPT sẽ gồm 11 môn</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/bao-ha-noi-moi/p/8.epi"><img src="https://photo-baomoi.bmcdn.me/a05eef313272db2c8263.png" alt="" class="new-logo"></a>
+                            <p class="new-time">1 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">31 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+               </div>
+
+               <div class="new-content">
+                <div class="img-hover">
+                    <a href="https://www.anninhthudo.vn/jt-express-duoc-vinh-danh-tai-le-trao-giai-cong-nghe-hang-dau-chau-a-post552281.antd"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_20_106_46983331/a3a39a344279ab27f268.jpg.webp" alt="" class="new-img"></a>
+                </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://www.anninhthudo.vn/jt-express-duoc-vinh-danh-tai-le-trao-giai-cong-nghe-hang-dau-chau-a-post552281.antd">J&T Express được vinh danh tại lễ trao giải công nghệ hàng đầu châu Á</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/chuyen-trang-an-ninh-thu-do-bao-cong-an-nhan-dan/p/106.epi"><img src="https://photo-baomoi.bmcdn.me/579c7af3a7b04eee17a1.png" alt="" class="new-logo"></a>
+                            <p class="new-time">1 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">402 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://vtc.vn/thung-luoi-3-ban-trong-9-phut-ha-noi-fc-thua-doi-bong-han-quoc-ar818717.html"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_20_83_46983396/ff5d8dc7558abcd4e59b.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://vtc.vn/thung-luoi-3-ban-trong-9-phut-ha-noi-fc-thua-doi-bong-han-quoc-ar818717.html">Thủng lưới 3 bàn trong 9 phút, Hà Nội FC thua đội bóng Hàn Quốc</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/bao-vtc-news/p/83.epi"><img src="https://photo-baomoi.bmcdn.me/6eede58338c0d19e88d1.png" alt="" class="new-logo"></a>
+                            <p class="new-time">2 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">6 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ---Năng lượng tích cực--- -->
+                <p class="positive-energy-title"><a href="">| NĂNG LƯỢNG TÍCH CỰC</a></p>
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://dangcongsan.vn/thoi-su/bi-thu-thanh-uy-ha-noi-tham-va-lam-viec-tai-tinh-quang-dong-trung-quoc-647821.html"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_25_115_47033035/99c1acd77c9a95c4cc8b.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://dangcongsan.vn/thoi-su/bi-thu-thanh-uy-ha-noi-tham-va-lam-viec-tai-tinh-quang-dong-trung-quoc-647821.html">Bí thư Thành ủy Hà Nội thăm và làm việc tại tỉnh Quảng Đông (Trung Quốc)</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/bao-vtc-news/p/83.epi"><img src="https://photo-baomoi.bmcdn.me/6eede58338c0d19e88d1.png" alt="" class="new-logo"></a>
+                            <p class="new-time">2 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/hoang-khon-minh/t/36264221.epi">5 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://plo.vn/tran-quyet-chien-duoc-quan-tam-tim-kiem-nhieu-hon-ca-asiad-19-post753293.html"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_26_114_47033607/3100cdcb1c86f5d8ac97.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://plo.vn/tran-quyet-chien-duoc-quan-tam-tim-kiem-nhieu-hon-ca-asiad-19-post753293.html">Trần Quyết Chiến được quan tâm, tìm kiếm nhiều hơn cả ASIAD 19</a></h4>
+                        <div class="note">
+                            <a href="https://plo.vn/"><img src="https://photo-baomoi.bmcdn.me/f12dd0420d01e45fbd10.png" alt="" class="new-logo"></a>
+                            <p class="new-time">3 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">26 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://www.vietnamplus.vn/thong-tin-ve-mau-vat-duoc-nasa-dua-tu-tieu-hanh-tinh-bennu-ve-trai-dat/896470.vnp"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2_sm/2023_09_26_293_47033610/c2ef4c249d6974372d78.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://www.vietnamplus.vn/thong-tin-ve-mau-vat-duoc-nasa-dua-tu-tieu-hanh-tinh-bennu-ve-trai-dat/896470.vnp">Thông tin về mẫu vật được NASA đưa từ tiểu hành tinh Bennu về Trái Đất</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/bao-vietnamplus/p/293.epi"><img src="https://photo-baomoi.bmcdn.me/d1c2f8ad25eeccb095ff.png" alt="" class="new-logo"></a>
+                            <p class="new-time">3 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/bao-vietnamplus/p/293.epi">19 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="combo">
+                    <p class="combo-heading"><a href="https://nld.com.vn/thoi-su/ngay-dac-biet-tai-lang-may-man-20230925192738601.htm">Ngày đặc biệt tại Làng May Mắn</a></p>
+                    <div class="combo-img">
+                        <a href="https://nld.com.vn/thoi-su/ngay-dac-biet-tai-lang-may-man-20230925192738601.htm"><img src="https://photo-baomoi.bmcdn.me/w300_r4x3_sm/2023_09_26_15_47033274/317d9561452cac72f53d.jpg.webp" alt=""></a>
+                        <a href="https://nld.com.vn/thoi-su/ngay-dac-biet-tai-lang-may-man-20230925192738601.htm"><img src="https://photo-baomoi.bmcdn.me/w300_r4x3/2023_09_26_15_47033274/631cce001e4df713ae5c.jpg.webp" alt=""></a>
+                        <a href="https://nld.com.vn/thoi-su/ngay-dac-biet-tai-lang-may-man-20230925192738601.htm"><img src="https://photo-baomoi.bmcdn.me/w300_r4x3/2023_09_26_15_47033274/1b12c30e1343fa1da352.jpg.webp" alt=""></a>
+                        <a href="https://nld.com.vn/thoi-su/ngay-dac-biet-tai-lang-may-man-20230925192738601.htm"><img src="https://photo-baomoi.bmcdn.me/w300_r4x3/2023_09_26_15_47033274/f8ed21f1f1bc18e241ad.jpg.webp" alt=""></a>
+                    </div>
+                    <div class="note">
+                        <a href="https://baomoi.com/bao-nguoi-lao-dong/p/15.epi"><img src="https://photo-baomoi.bmcdn.me/0b89da8919caf094a9db.png" alt="" class="new-logo"></a>
+                        <p class="new-time">1 giờ</p>
+                        <p class="new-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">1 liên quan</a></p>
+                        <i class="clock-icon fa-regular fa-clock"></i>
+
+                    </div>
+                </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://www.vietnamplus.vn/viet-nambrazil-tang-cuong-hop-tac-sau-rong-tren-tat-ca-cac-linh-vuc/896524.vnp"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_26_293_47033750/55613ab1ebfc02a25bed.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://www.vietnamplus.vn/viet-nambrazil-tang-cuong-hop-tac-sau-rong-tren-tat-ca-cac-linh-vuc/896524.vnp">Việt Nam-Brazil tăng cường hợp tác sâu rộng trên tất cả các lĩnh vực</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/bao-vietnamplus/p/293.epi"><img src="https://photo-baomoi.bmcdn.me/d1c2f8ad25eeccb095ff.png" alt="" class="new-logo"></a>
+                            <p class="new-time">3 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/bao-vietnamplus/p/293.epi">6 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://baophapluat.vn/hungary-neu-toi-hau-thu-ve-trung-phat-nga-post489420.html"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_26_207_47034165/00e2323ee3730a2d5362.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://baophapluat.vn/hungary-neu-toi-hau-thu-ve-trung-phat-nga-post489420.html">Hungary nêu 'tối hậu thư' về trừng phạt Nga</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/bao-phap-luat-viet-nam/p/207.epi"><img src="https://photo-baomoi.bmcdn.me/59a173ceae8d47d31e9c.png" alt="" class="new-logo"></a>
+                            <p class="new-time">5 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/bao-phap-luat-viet-nam/p/207.epi">10 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://baoquocte.vn/huong-dan-cai-nhac-chuong-cho-tung-sim-tren-iphone-cuc-huu-ich-243379.html"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_26_194_47034489/147883d3529ebbc0e28f.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://baoquocte.vn/huong-dan-cai-nhac-chuong-cho-tung-sim-tren-iphone-cuc-huu-ich-243379.html">Hướng dẫn cài nhạc chuông cho từng SIM trên iPhone cực hữu ích</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/bao-the-gioi-viet-nam/p/194.epi"><img src="https://photo-baomoi.bmcdn.me/d01baf7472379b69c226.png" alt="" class="new-logo"></a>
+                            <p class="new-time">6 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/bao-the-gioi-viet-nam/p/194.epi">3 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://www.sggp.org.vn/mien-trung-moi-dau-mua-mua-bao-nhieu-noi-da-ngap-post707077.html"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_26_294_47033679/df0c66c3b78e5ed0079f.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://www.sggp.org.vn/mien-trung-moi-dau-mua-mua-bao-nhieu-noi-da-ngap-post707077.html">Có cầu vượt và hầm đi bộ, người dân vẫn bất chấp nguy hiểm băng qua đường</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/bao-tin-tuc-ttxvn/p/294.epi"><img src="https://photo-baomoi.bmcdn.me/a60983665e25b77bee34.png" alt="" class="new-logo"></a>
+                            <p class="new-time">1 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/bao-tin-tuc-ttxvn/p/294.epi">13 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+               </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://www.sggp.org.vn/mien-trung-moi-dau-mua-mua-bao-nhieu-noi-da-ngap-post707077.html"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_26_17_47034033/968d2e55ff1816464f09.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://www.sggp.org.vn/mien-trung-moi-dau-mua-mua-bao-nhieu-noi-da-ngap-post707077.html">Miền Trung: Mới đầu mùa mưa bão, nhiều nơi đã ngập</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/bao-sai-gon-giai-phong/p/17.epi"><img src="https://photo-baomoi.bmcdn.me/a60983665e25b77bee34.png" alt="" class="new-logo"></a>
+                            <p class="new-time">3 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/bao-sai-gon-giai-phong/p/17.epi">26 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://www.congluan.vn/tong-thong-biden-canh-bao-hang-trieu-nguoi-se-doi-neu-chinh-phu-my-dong-cua-post266123.html"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_26_197_47034370/4a032aa7fbea12b44bfb.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://www.congluan.vn/tong-thong-biden-canh-bao-hang-trieu-nguoi-se-doi-neu-chinh-phu-my-dong-cua-post266123.html">Tổng thống Biden cảnh báo hàng triệu người sẽ đói nếu Chính phủ Mỹ đóng cửa</a></h4>
+                        <div class="note">
+                            <a href="https://www.congluan.vn/"><img src="https://photo-baomoi.bmcdn.me/9f18981d9050790e2041.png" alt="" class="new-logo"></a>
+                            <p class="new-time">6 phút</p>
+                            <p class="new-relate"><a href="https://www.congluan.vn/">9 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://vtc.vn/nen-uong-bot-san-day-thoi-diem-nao-ar821218.html"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_20_83_46982379/f23d5e9186dc6f8236cd.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://vtc.vn/nen-uong-bot-san-day-thoi-diem-nao-ar821218.html">Nên uống bột sắn dây thời điểm nào?</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/bao-vtc-news/p/83.epi"><img src="https://photo-baomoi.bmcdn.me/6eede58338c0d19e88d1.png" alt="" class="new-logo"></a>
+                            <p class="new-time">5 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">10 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://vtc.vn/dieu-gi-se-xay-ra-neu-ban-an-mot-bap-ngo-moi-ngay-ar821278.html"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_20_83_46982149/cf4d37e9efa406fa5fb5.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://vtc.vn/dieu-gi-se-xay-ra-neu-ban-an-mot-bap-ngo-moi-ngay-ar821278.html">Điều gì sẽ xảy ra nếu bạn ăn một bắp ngô mỗi ngày?</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/bao-vtc-news/p/83.epi"><img src="https://photo-baomoi.bmcdn.me/6eede58338c0d19e88d1.png" alt="" class="new-logo"></a>
+                            <p class="new-time">3 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">19 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://www.anninhthudo.vn/hop-tac-dau-tranh-triet-pha-cac-mang-luoi-toi-pham-ma-tuy-co-to-chuc-xuyen-quoc-gia-post552298.antd"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_20_106_46982296/1f88d121096ce032b97d.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://www.anninhthudo.vn/hop-tac-dau-tranh-triet-pha-cac-mang-luoi-toi-pham-ma-tuy-co-to-chuc-xuyen-quoc-gia-post552298.antd">Hợp tác đấu tranh triệt phá các mạng lưới tội phạm ma túy có tổ chức xuyên quốc gia</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/chuyen-trang-an-ninh-thu-do-bao-cong-an-nhan-dan/p/106.epi"><img src="https://photo-baomoi.bmcdn.me/579c7af3a7b04eee17a1.png" alt="" class="new-logo"></a>
+                            <p class="new-time">6 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">3 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- ---Khám phá Việt Nam--- -->
+                <p class="positive-energy-title"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">| KHÁM PHÁ VIỆT NAM</a></p>
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://tienphong.vn/philippines-thua-dam-han-quoc-dt-nu-viet-nam-co-them-co-hoi-di-tiep-post1572338.tpo"><img src="https://gif-baomoi.bmcdn.me/w300_r3x2/2023_09_25_20_47032754/4f127813a85e4100184f.gif" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://tienphong.vn/philippines-thua-dam-han-quoc-dt-nu-viet-nam-co-them-co-hoi-di-tiep-post1572338.tpo">Philippines thua đậm Hàn Quốc, ĐT nữ Việt Nam có thêm cơ hội đi tiếp</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/bao-tien-phong/p/20.epi"><img src="https://photo-baomoi.bmcdn.me/b3a88dc75084b9dae095.png" alt="" class="new-logo"></a>
+                            <p class="new-time">9 giờ trước</p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://www.anninhthudo.vn/tho-nhi-ky-danh-sap-9-toa-nha-bi-hu-hai-nang-trong-tham-hoa-dong-dat-post552247.antd"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_20_106_46983363/909dc9081145f81ba154.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://www.anninhthudo.vn/tho-nhi-ky-danh-sap-9-toa-nha-bi-hu-hai-nang-trong-tham-hoa-dong-dat-post552247.antd">Thổ Nhĩ Kỳ đánh sập 9 tòa nhà bị hư hại nặng trong thảm họa động đất</a></h4>
+                        <div class="note">
+                            <a href=""><img src="https://photo-baomoi.bmcdn.me/579c7af3a7b04eee17a1.png" alt="" class="new-logo"></a>
+                            <p class="new-time">3 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">26 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://baochinhphu.vn/thu-tuong-cac-bo-truong-phai-truc-tiep-phu-trach-va-chiu-trach-nhiem-ve-cong-tac-xay-dung-phap-luat-102230928122552669.htm"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_28_146_47062090/d20ad4c51988f0d6a999.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://baochinhphu.vn/thu-tuong-cac-bo-truong-phai-truc-tiep-phu-trach-va-chiu-trach-nhiem-ve-cong-tac-xay-dung-phap-luat-102230928122552669.htm">Thủ tướng: Các bộ trưởng phải trực tiếp phụ trách và chịu trách nhiệm về công tác xây dựng pháp luật</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/bao-vtc-news/p/83.epi"><img src="https://photo-baomoi.bmcdn.me/6eede58338c0d19e88d1.png" alt="" class="new-logo"></a>
+                            <p class="new-time">3 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/pham-minh-chinh/t/34953541.epi">194 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://www.anninhthudo.vn/chua-thong-nhat-quy-dinh-ve-giam-thoi-gian-dong-bhxh-huong-luong-huu-va-rut-bhxh-mot-lan-post552302.antd"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_20_106_46982734/a16ff6d62e9bc7c59e8a.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://www.anninhthudo.vn/chua-thong-nhat-quy-dinh-ve-giam-thoi-gian-dong-bhxh-huong-luong-huu-va-rut-bhxh-mot-lan-post552302.antd">Chưa thống nhất quy định về giảm thời gian đóng BHXH hưởng lương hưu và rút BHXH một lần</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/chuyen-trang-an-ninh-thu-do-bao-cong-an-nhan-dan/p/106.epi"><img src="https://photo-baomoi.bmcdn.me/579c7af3a7b04eee17a1.png" alt="" class="new-logo"></a>
+                            <p class="new-time">3 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">6 liên quan</a></p>                        <i class="clock-icon fa-regular fa-clock"></i>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="combo">
+                    <p class="combo-heading"><a href="https://nld.com.vn/van-nghe/tp-hcm-long-trong-to-chuc-le-gio-to-san-khau-20230925213608429.htm">TP HCM long trọng tổ chức Lễ Giỗ Tổ Sân khấu</a></p>
+                    <div class="combo-img">
+                        <a href="https://nld.com.vn/van-nghe/tp-hcm-long-trong-to-chuc-le-gio-to-san-khau-20230925213608429.htm"><img src="https://photo-baomoi.bmcdn.me/w300_r4x3_sm/2023_09_25_15_47033007/b8cc48c0988d71d3289c.jpg.webp" alt=""></a>
+                        <a href="https://nld.com.vn/van-nghe/tp-hcm-long-trong-to-chuc-le-gio-to-san-khau-20230925213608429.htm"><img src="https://photo-baomoi.bmcdn.me/w300_r4x3/2023_09_25_15_47033007/89a07bacabe142bf1bf0.jpg.webp" alt=""></a>
+                        <a href="https://nld.com.vn/van-nghe/tp-hcm-long-trong-to-chuc-le-gio-to-san-khau-20230925213608429.htm"><img src="https://photo-baomoi.bmcdn.me/w300_r4x3/2023_09_25_15_47033007/fc23122fc2622b3c7273.jpg.webp" alt=""></a>
+                        <a href="https://nld.com.vn/van-nghe/tp-hcm-long-trong-to-chuc-le-gio-to-san-khau-20230925213608429.htm"><img src="https://photo-baomoi.bmcdn.me/w300_r4x3_sm/2023_09_25_15_47033007/7b85948944c4ad9af4d5.jpg.webp" alt=""></a>
+                    </div>
+                    <div class="note">
+                        <a href="https://baomoi.com/bao-nguoi-lao-dong/p/15.epi"><img src="https://photo-baomoi.bmcdn.me/0b89da8919caf094a9db.png" alt="" class="new-logo"></a>
+                        <p class="new-time">1 giờ</p>
+                        <p class="new-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">1 liên quan</a></p>
+                        <i class="clock-icon fa-regular fa-clock"></i>
+
+                    </div>
+                </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://vtc.vn/nen-uong-bot-san-day-thoi-diem-nao-ar821218.html"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_20_83_46982379/f23d5e9186dc6f8236cd.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://vtc.vn/nen-uong-bot-san-day-thoi-diem-nao-ar821218.html">Nên uống bột sắn dây thời điểm nào?</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/bao-vtc-news/p/83.epi"><img src="https://photo-baomoi.bmcdn.me/6eede58338c0d19e88d1.png" alt="" class="new-logo"></a>
+                            <p class="new-time">5 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">10 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://phapluatxahoi.kinhtedothi.vn//hlv-mai-duc-chung-noi-gi-sau-khi-tuyen-nu-viet-nam-dung-buoc-tai-asiad-19-354430.html"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_29_204_47067918/7d9ca36c6d21847fdd30.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://phapluatxahoi.kinhtedothi.vn//hlv-mai-duc-chung-noi-gi-sau-khi-tuyen-nu-viet-nam-dung-buoc-tai-asiad-19-354430.html">HLV Mai Đức Chung nói gì sau khi tuyển nữ Việt Nam dừng bước tại ASIAD 19</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/chuyen-trang-phap-luat-xa-hoi-bao-kinh-te-do-thi/p/204.epi"><img src="https://photo-baomoi.bmcdn.me/274c96dbe3990ac75388.png" alt="" class="new-logo"></a>
+                            <p class="new-time">6 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/doi-tuyen-nu-viet-nam/t/31688944.epi">2406 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://phapluatxahoi.kinhtedothi.vn/160-gian-hang-tham-gia-festival-nong-san-ha-noi-lan-2-nam-2023-tai-soc-son-354428.html"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_29_204_47067912/99eb301efe53170d4e42.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://phapluatxahoi.kinhtedothi.vn/160-gian-hang-tham-gia-festival-nong-san-ha-noi-lan-2-nam-2023-tai-soc-son-354428.html">160 gian hàng tham gia Festival nông sản Hà Nội lần 2 năm 2023 tại Sóc Sơn</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/bao-ha-noi-moi/p/8.epi"><img src="https://photo-baomoi.bmcdn.me/a05eef313272db2c8263.png" alt="" class="new-logo"></a>
+                            <p class="new-time">1 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/festival-nong-san-ha-noi/t/36238053.epi">11 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+               </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://www.anninhthudo.vn/tho-nhi-ky-danh-sap-9-toa-nha-bi-hu-hai-nang-trong-tham-hoa-dong-dat-post552247.antd"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_20_106_46983363/909dc9081145f81ba154.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://www.anninhthudo.vn/tho-nhi-ky-danh-sap-9-toa-nha-bi-hu-hai-nang-trong-tham-hoa-dong-dat-post552247.antd">Thổ Nhĩ Kỳ đánh sập 9 tòa nhà bị hư hại nặng trong thảm họa động đất</a></h4>
+                        <div class="note">
+                            <a href=""><img src="https://photo-baomoi.bmcdn.me/579c7af3a7b04eee17a1.png" alt="" class="new-logo"></a>
+                            <p class="new-time">3 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">26 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://phapluatxahoi.kinhtedothi.vn/ha-noi-giai-quyet-viec-lam-cho-155-nghin-lao-dong-trong-thang-9-354406.html"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_29_204_47067911/1733c0cb0e86e7d8be97.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://phapluatxahoi.kinhtedothi.vn/ha-noi-giai-quyet-viec-lam-cho-155-nghin-lao-dong-trong-thang-9-354406.html">Hà Nội giải quyết việc làm cho 15,5 nghìn lao động trong tháng 9</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/chuyen-trang-an-ninh-thu-do-bao-cong-an-nhan-dan/p/106.epi"><img src="https://photo-baomoi.bmcdn.me/579c7af3a7b04eee17a1.png" alt="" class="new-logo"></a>
+                            <p class="new-time">6 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">3 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://tienphong.vn/hang-nghin-nguoi-do-ve-hoi-an-choi-tet-trung-thu-post1573464.tpo"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_29_20_47067997/fda8845a4a17a349fa06.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://tienphong.vn/hang-nghin-nguoi-do-ve-hoi-an-choi-tet-trung-thu-post1573464.tpo">Hàng nghìn người đổ về Hội An chơi Tết Trung thu</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/bao-tien-phong/p/20.epi"><img src="https://photo-baomoi.bmcdn.me/b3a88dc75084b9dae095.png" alt="" class="new-logo"></a>
+                            <p class="new-time">5 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/hoi-an/t/36276056.epi">15 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://vtc.vn/dieu-gi-se-xay-ra-neu-ban-an-mot-bap-ngo-moi-ngay-ar821278.html"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_20_83_46982149/cf4d37e9efa406fa5fb5.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://vtc.vn/dieu-gi-se-xay-ra-neu-ban-an-mot-bap-ngo-moi-ngay-ar821278.html">Điều gì sẽ xảy ra nếu bạn ăn một bắp ngô mỗi ngày?</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/bao-vtc-news/p/83.epi"><img src="https://photo-baomoi.bmcdn.me/6eede58338c0d19e88d1.png" alt="" class="new-logo"></a>
+                            <p class="new-time">3 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">19 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://www.anninhthudo.vn/hop-tac-dau-tranh-triet-pha-cac-mang-luoi-toi-pham-ma-tuy-co-to-chuc-xuyen-quoc-gia-post552298.antd"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_20_106_46982296/1f88d121096ce032b97d.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://www.anninhthudo.vn/hop-tac-dau-tranh-triet-pha-cac-mang-luoi-toi-pham-ma-tuy-co-to-chuc-xuyen-quoc-gia-post552298.antd">Hợp tác đấu tranh triệt phá các mạng lưới tội phạm ma túy có tổ chức xuyên quốc gia</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/chuyen-trang-an-ninh-thu-do-bao-cong-an-nhan-dan/p/106.epi"><img src="https://photo-baomoi.bmcdn.me/579c7af3a7b04eee17a1.png" alt="" class="new-logo"></a>
+                            <p class="new-time">6 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">3 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- ---Khám phá Thế giới--- -->
+                <p class="positive-energy-title"><a href="">| KHÁM PHÁ THẾ GIỚI</a></p>
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://tienphong.vn/ngoi-sao-ai-lan-dau-dien-xuat-o-phim-truyen-hinh-trung-quoc-post1572028.tpo"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_26_20_47034253/c00782a753eabab4e3fb.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://tienphong.vn/ngoi-sao-ai-lan-dau-dien-xuat-o-phim-truyen-hinh-trung-quoc-post1572028.tpo">Ngôi sao AI lần đầu diễn xuất ở phim truyền hình Trung Quốc</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/bao-tien-phong/p/20.epi"><img src="https://photo-baomoi.bmcdn.me/b3a88dc75084b9dae095.png" alt="" class="new-logo"></a>
+                            <p class="new-time">2 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/tin-lien-quan/t/36232037.epi">3 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://kienthuc.net.vn/khoa-hoc-cong-nghe/phong-to-tuyet-pham-cua-van-gogh-bi-mat-tram-nam-dan-he-lo-1905324.html"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_29_180_47068714/fb54469688db618538ca.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://kienthuc.net.vn/khoa-hoc-cong-nghe/phong-to-tuyet-pham-cua-van-gogh-bi-mat-tram-nam-dan-he-lo-1905324.html">Phóng to tuyệt phẩm của Van Gogh, bí mật trăm năm dần hé lộ</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/bao-kien-thuc/p/180.epi"><img src="https://photo-baomoi.bmcdn.me/e9b048137951900fc940.png" alt="" class="new-logo"></a>
+                            <p class="new-time">3 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/tin-lien-quan/t/36265048.epi">3 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://plo.vn/my-cao-buoc-trung-quoc-thao-tung-truyen-thong-toan-cau-post753873.html"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2_sm/2023_09_29_114_47068179/9a559da353eebab0e3ff.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://plo.vn/my-cao-buoc-trung-quoc-thao-tung-truyen-thong-toan-cau-post753873.html">Mỹ cáo buộc Trung Quốc thao túng truyền thông toàn cầu</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/bao-phap-luat-tp-hcm/p/114.epi"><img src="https://photo-baomoi.bmcdn.me/f12dd0420d01e45fbd10.png" alt="" class="new-logo"></a>
+                            <p class="new-time">3 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">19 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://plo.vn/my-cao-buoc-trung-quoc-thao-tung-truyen-thong-toan-cau-post753873.html"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_20_106_46982734/a16ff6d62e9bc7c59e8a.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://plo.vn/my-cao-buoc-trung-quoc-thao-tung-truyen-thong-toan-cau-post753873.html">Chưa thống nhất quy định về giảm thời gian đóng BHXH hưởng lương hưu và rút BHXH một lần</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/chuyen-trang-an-ninh-thu-do-bao-cong-an-nhan-dan/p/106.epi"><img src="https://photo-baomoi.bmcdn.me/579c7af3a7b04eee17a1.png" alt="" class="new-logo"></a>
+                            <p class="new-time">3 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">6 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://plo.vn/moscow-dap-tra-phat-ngon-cua-thu-tuong-armenia-nham-vao-nga-post753301.html"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_26_114_47034211/94bcff1e2e53c70d9e42.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://plo.vn/moscow-dap-tra-phat-ngon-cua-thu-tuong-armenia-nham-vao-nga-post753301.html">Moscow đáp trả phát ngôn của thủ tướng Armenia nhằm vào Nga</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/bao-phap-luat-tp-hcm/p/114.epi"><img src="https://photo-baomoi.bmcdn.me/f12dd0420d01e45fbd10.png" alt="" class="new-logo"></a>
+                            <p class="new-time">5 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/">666 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://kienthuc.net.vn/o-to-xe-may/toyota-land-cruiser-mini-lo-thong-tin-se-ra-mat-vao-nam-2024-1905501.html"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_29_180_47068824/543ce9fd27b0ceee97a1.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://kienthuc.net.vn/o-to-xe-may/toyota-land-cruiser-mini-lo-thong-tin-se-ra-mat-vao-nam-2024-1905501.html">Toyota Land Cruiser mini lộ thông tin sẽ ra mắt vào năm 2024</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/chuyen-trang-an-ninh-thu-do-bao-cong-an-nhan-dan/p/106.epi"><img src="https://photo-baomoi.bmcdn.me/e9b048137951900fc940.png" alt="" class="new-logo"></a>
+                            <p class="new-time">6 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/tin-lien-quan/t/36278110.epi">3 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="combo">
+                    <p class="combo-heading"><a href="https://www.anninhthudo.vn/he-thong-phong-khong-pantsir-nga-phoi-hop-radar-st-68um-ukraine-bao-ve-dap-phuc-hung-lon-post552754.antd">Hệ thống phòng không Pantsir Nga phối hợp radar ST-68UM Ukraine bảo vệ Đập Phục hưng lớn</a></p>
+                    <div class="combo-img">
+                        <a href="https://www.anninhthudo.vn/he-thong-phong-khong-pantsir-nga-phoi-hop-radar-st-68um-ukraine-bao-ve-dap-phuc-hung-lon-post552754.antd"><img src="https://photo-baomoi.bmcdn.me/w300_r4x3/2023_09_26_106_47034119/9cdf0301d24c3b12625d.jpg.webp" alt=""></a>
+                        <a href="https://www.anninhthudo.vn/he-thong-phong-khong-pantsir-nga-phoi-hop-radar-st-68um-ukraine-bao-ve-dap-phuc-hung-lon-post552754.antd"><img src="https://photo-baomoi.bmcdn.me/w300_r4x3/2023_09_26_106_47034119/8b741baacae723b97af6.jpg.webp" alt=""></a>
+                        <a href="https://www.anninhthudo.vn/he-thong-phong-khong-pantsir-nga-phoi-hop-radar-st-68um-ukraine-bao-ve-dap-phuc-hung-lon-post552754.antd"><img src="https://photo-baomoi.bmcdn.me/w300_r4x3/2023_09_26_106_47034119/d4f94e279f6a76342f7b.jpg.webp" alt=""></a>
+                        <a href="https://www.anninhthudo.vn/he-thong-phong-khong-pantsir-nga-phoi-hop-radar-st-68um-ukraine-bao-ve-dap-phuc-hung-lon-post552754.antd"><img src="https://photo-baomoi.bmcdn.me/w300_r4x3/2023_09_26_106_47034119/9c0301ddd09039ce6081.jpg.webp" alt=""></a>
+                    </div>
+                    <div class="note">
+                        <a href="https://baomoi.com/bao-nguoi-lao-dong/p/15.epi"><img src="https://photo-baomoi.bmcdn.me/0b89da8919caf094a9db.png" alt="" class="new-logo"></a>
+                        <p class="new-time">1 giờ</p>
+                        <p class="new-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">1 liên quan</a></p>
+                        <i class="clock-icon fa-regular fa-clock"></i>
+
+                    </div>
+                </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://baomoi.com/c/46981020.epi"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_20_106_46981020/8650b6916edc8782decd.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://baomoi.com/c/46981020.epi">Từ năm 2025, dự kiến kỳ thi tốt nghiệp THPT sẽ gồm 11 môn</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/bao-ha-noi-moi/p/8.epi"><img src="https://photo-baomoi.bmcdn.me/a05eef313272db2c8263.png" alt="" class="new-logo"></a>
+                            <p class="new-time">1 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">31 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+               </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://www.anninhthudo.vn/tho-nhi-ky-danh-sap-9-toa-nha-bi-hu-hai-nang-trong-tham-hoa-dong-dat-post552247.antd"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_20_106_46983363/909dc9081145f81ba154.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://www.anninhthudo.vn/tho-nhi-ky-danh-sap-9-toa-nha-bi-hu-hai-nang-trong-tham-hoa-dong-dat-post552247.antd">Thổ Nhĩ Kỳ đánh sập 9 tòa nhà bị hư hại nặng trong thảm họa động đất</a></h4>
+                        <div class="note">
+                            <a href=""><img src="https://photo-baomoi.bmcdn.me/579c7af3a7b04eee17a1.png" alt="" class="new-logo"></a>
+                            <p class="new-time">3 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">26 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://www.tinnhanhchungkhoan.vn/dau-nga-dang-giao-dich-o-muc-cao-hon-nhieu-so-voi-tran-gia-cua-g7-post330786.html"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_29_95_47067815/04d4463a887761293866.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://www.tinnhanhchungkhoan.vn/dau-nga-dang-giao-dich-o-muc-cao-hon-nhieu-so-voi-tran-gia-cua-g7-post330786.html">Dầu Nga đang giao dịch ở mức cao hơn nhiều so với trần giá của G7</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/chuyen-trang-dau-tu-chung-khoan-bao-dau-tu/p/95.epi"><img src="https://photo-baomoi.bmcdn.me/18b13adee79d0ec3578c.png" alt="" class="new-logo"></a>
+                            <p class="new-time">6 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/lien-bang-nga/t/31651187.epi">2144 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://vtc.vn/nen-uong-bot-san-day-thoi-diem-nao-ar821218.html"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_20_83_46982379/f23d5e9186dc6f8236cd.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://vtc.vn/nen-uong-bot-san-day-thoi-diem-nao-ar821218.html">Nên uống bột sắn dây thời điểm nào?</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/bao-vtc-news/p/83.epi"><img src="https://photo-baomoi.bmcdn.me/6eede58338c0d19e88d1.png" alt="" class="new-logo"></a>
+                            <p class="new-time">5 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">10 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://vtc.vn/dieu-gi-se-xay-ra-neu-ban-an-mot-bap-ngo-moi-ngay-ar821278.html"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_20_83_46982149/cf4d37e9efa406fa5fb5.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://vtc.vn/dieu-gi-se-xay-ra-neu-ban-an-mot-bap-ngo-moi-ngay-ar821278.html">Điều gì sẽ xảy ra nếu bạn ăn một bắp ngô mỗi ngày?</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/bao-vtc-news/p/83.epi"><img src="https://photo-baomoi.bmcdn.me/6eede58338c0d19e88d1.png" alt="" class="new-logo"></a>
+                            <p class="new-time">3 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">19 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-content">
+                    <div class="img-hover">
+                        <a href="https://www.anninhthudo.vn/hop-tac-dau-tranh-triet-pha-cac-mang-luoi-toi-pham-ma-tuy-co-to-chuc-xuyen-quoc-gia-post552298.antd"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_20_106_46982296/1f88d121096ce032b97d.jpg.webp" alt="" class="new-img"></a>
+                    </div>
+                    <div class="new-none">
+                        <h4 class="new-title"><a href="https://www.anninhthudo.vn/hop-tac-dau-tranh-triet-pha-cac-mang-luoi-toi-pham-ma-tuy-co-to-chuc-xuyen-quoc-gia-post552298.antd">Hợp tác đấu tranh triệt phá các mạng lưới tội phạm ma túy có tổ chức xuyên quốc gia</a></h4>
+                        <div class="note">
+                            <a href="https://baomoi.com/chuyen-trang-an-ninh-thu-do-bao-cong-an-nhan-dan/p/106.epi"><img src="https://photo-baomoi.bmcdn.me/579c7af3a7b04eee17a1.png" alt="" class="new-logo"></a>
+                            <p class="new-time">6 phút</p>
+                            <p class="new-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">3 liên quan</a></p>
+                            <i class="clock-icon fa-regular fa-clock"></i>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hot-right">
+                <div class="right-box-img">
+                    <div class="hot-24h">
+                         <a href="https://plo.vn/ronaldo-ghi-ban-ma-thu-mon-khong-the-nhin-thay-bong-post752935.html"><img src="https://photo-baomoi.bmcdn.me/w300_r1x1_sm/2023_09_14_65_46921570/05712106c64b2f15765a.jpg.webp" alt="" class="box-img"></a>
+                    </div> 
+                    <div class="box-none">
+                         <h4 class="box-title"><a href="https://plo.vn/ronaldo-ghi-ban-ma-thu-mon-khong-the-nhin-thay-bong-post752935.html">Tổng Bí thư Nguyễn Phú Trọng: Nguyên khí quốc gia thịnh thì đất nước mạnh</a></h4>
+                         <div class="box-note">
+                             <a href="https://baomoi.com/bao-nguoi-lao-dong/p/15.epi"><img src="https://photo-baomoi.bmcdn.me/0b89da8919caf094a9db.png" alt="" class="box-logo"></a>
+                             <p class="box-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">3 liên quan</a></p>
+                             <i class="clock-icon fa-regular fa-clock"></i>
+
+                         </div>
+                    </div>
+                </div>
+                <div class="right-box-img">
+                    <div class="hot-24h">
+                         <a href="https://baomoi.com/c/47011898.epi"><img src="https://photo-baomoi.bmcdn.me/w300_r1x1/2023_09_23_114_47011898/876ae8303c7dd5238c6c.jpg.webp" alt="" class="box-img"></a>
+                    </div> 
+                    <div class="box-none">
+                         <h4 class="box-title"><a href="https://baomoi.com/c/47011898.epi">Ronaldo ghi bàn mà thủ môn không thể nhìn thấy bóng</a></h4>
+                         <div class="box-note">
+                             <a href="https://baomoi.com/bao-phap-luat-tp-hcm/p/114.epi"><img src="https://photo-baomoi.bmcdn.me/f12dd0420d01e45fbd10.png" alt="" class="box-logo"></a>
+                             <p class="box-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">6 liên quan</a></p>
+                             <i class="clock-icon fa-regular fa-clock"></i>
+
+                         </div>
+                    </div>
+                </div>
+                <div class="right-box-img">
+                    <div class="hot-24h">
+                         <a href="https://plo.vn/gia-dau-co-the-tiep-tuc-neo-o-muc-cao-post752928.html"><img src="https://photo-baomoi.bmcdn.me/w300_r1x1/2023_09_23_114_47011896/f63a706fa4224d7c1433.jpg.webp" alt="" class="box-img"></a>
+                    </div> 
+                    <div class="box-none">
+                         <h4 class="box-title"><a href="https://plo.vn/gia-dau-co-the-tiep-tuc-neo-o-muc-cao-post752928.html">Giá dầu có thể tiếp tục neo ở mức cao</a></h4>
+                         <div class="box-note">
+                             <a href="https://baomoi.com/bao-nguoi-lao-dong/p/15.epi"><img src="https://photo-baomoi.bmcdn.me/0b89da8919caf094a9db.png" alt="" class="box-logo"></a>
+                             <p class="box-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">3 liên quan</a></p>
+                             <i class="clock-icon fa-regular fa-clock"></i>
+
+                         </div>
+                    </div>
+                </div>
+                <div class="right-box-img">
+                    <div class="hot-24h">
+                         <a href="https://thethao.sggp.org.vn/pochettino-canh-bao-nicolas-jackson-trong-cuoc-hop-rieng-post706770.html"><img src="https://photo-baomoi.bmcdn.me/w300_r1x1/2023_09_23_17_47011911/49d5418f95c27c9c25d3.jpg.webp" alt="" class="box-img"></a>
+                    </div> 
+                    <div class="box-none">
+                         <h4 class="box-title"><a href="https://thethao.sggp.org.vn/pochettino-canh-bao-nicolas-jackson-trong-cuoc-hop-rieng-post706770.html">Pochettino cảnh báo Nicolas Jackson trong cuộc họp riêng</a></h4>
+                         <div class="box-note">
+                             <a href="https://baomoi.com/bao-nguoi-lao-dong/p/15.epi"><img src="https://photo-baomoi.bmcdn.me/a60983665e25b77bee34.png" alt="" class="box-logo"></a>
+                             <p class="box-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">3 liên quan</a></p>
+                             <i class="clock-icon fa-regular fa-clock"></i>
+
+                         </div>
+                    </div>
+                </div>
+                <div class="right-box-img bottom">
+                    <div class="hot-24h">
+                         <a href="https://vietnamnet.vn/nhung-mau-xe-suv-hang-sang-dat-nhat-the-gioi-luon-duoc-gioi-nha-giau-san-don-2193145.html"><img src="https://photo-baomoi.bmcdn.me/w300_r1x1/2023_09_23_23_47011961/4aef29b7fdfa14a44deb.jpg.webp" alt="" class="box-img"></a>
+                    </div> 
+                    <div class="box-none">
+                         <h4 class="box-title"><a href="https://vietnamnet.vn/nhung-mau-xe-suv-hang-sang-dat-nhat-the-gioi-luon-duoc-gioi-nha-giau-san-don-2193145.html">Những mẫu xe SUV hạng sang đắt nhất thể giới luôn được giới nhà giàu săn đón</a></h4>
+                         <div class="box-note">
+                             <a href="https://baomoi.com/bao-vietnamnet/p/23.epi"><img src="https://photo-baomoi.bmcdn.me/26dc73b3aef047ae1ee1.png" alt="" class="box-logo"></a>
+                             <p class="box-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">3 liên quan</a></p>
+                             <i class="clock-icon fa-regular fa-clock"></i>
+
+                         </div>
+                    </div>
+                </div>
+                <div class="hot-runbox">
+                    <p>ĐỐI TÁC CHÍNH THỨC</p>
+                    <div>
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="item1">
+                                    <a href="https://baomoi.com/cong-an-tp-hcm-p62.epi">
+                                        <img src="https://photo-baomoi.bmcdn.me/3700446f992c7072293d.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item2">
+                                    <a href="https://baomoi.com/bao-bien-phong-p195.epi">
+                                        <img src="https://photo-baomoi.bmcdn.me/7d6e42019f42761c2f53.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item7">
+                                    <a href="https://baomoi.com/bao-to-quoc-p101.epi">
+                                        <img src="https://photo-baomoi.bmcdn.me/1ab14ade979d7ec3278c.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item3">
+                                    <a href="https://baomoi.com/bao-sai-gon-giai-phong-p17.epi">
+                                        <img src="https://photo-baomoi.bmcdn.me/a60983665e25b77bee34.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item3">
+                                    <a href="https://baomoi.com/bao-nhan-dan-p14.epi">
+                                        <img src="https://photo-baomoi.bmcdn.me/4e023e6de32e0a70533f.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item3">
+                                    <a href="https://baomoi.com/thoi-bao-tai-chinh-p578.epi">
+                                        <img src="https://photo-baomoi.bmcdn.me/b306c969142afd74a43b.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item4">
+                                    <a href="https://baomoi.com/bao-vov-p65.epi">
+                                        <img src="https://photo-baomoi.bmcdn.me/a1493a27e7640e3a5775.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item5">
+                                    <a href="https://baomoi.com/bao-vietnamnet-p23.epi">
+                                        <img src="https://photo-baomoi.bmcdn.me/26dc73b3aef047ae1ee1.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item6">
+                                    <a href="https://baomoi.com/bao-nguoi-lao-dong-p15.epi">
+                                        <img src="https://photo-baomoi.bmcdn.me/0b89da8919caf094a9db.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item1">
+                                    <a href="https://baomoi.com/bao-tin-tuc-ttxvn-p294.epi">
+                                        <img src="https://photo-baomoi.bmcdn.me/bb071048550abc54e51b.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item6">
+                                    <a href="https://baomoi.com/bao-quan-doi-nhan-dan-p16.epi">
+                                        <img src="https://photo-baomoi.bmcdn.me/fdf3989c45dfac81f5ce.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item6">
+                                    <a href="https://baomoi.com/bao-dau-tu-p72.epi">
+                                        <img src="https://photo-baomoi.bmcdn.me/cf36b2596f1a8644df0b.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item9">
+                                    <a href="https://baomoi.com/chuyen-trang-an-ninh-thu-do-bao-cong-an-nhan-dan-p106.epi">
+                                        <img src="https://photo-baomoi.bmcdn.me/579c7af3a7b04eee17a1.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item2">
+                                    <a href="https://baomoi.com/tap-chi-mat-tran-p346.epi">
+                                        <img src="https://photo-baomoi.bmcdn.me/8b131a7dc73e2e60772f.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item8">
+                                    <a href="https://baomoi.com/bao-the-gioi-viet-nam-p194.epi">
+                                        <img src="https://photo-baomoi.bmcdn.me/d01baf7472379b69c226.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="item6">
+                                    <a href="https://baomoi.com/tap-chi-kinh-te-sai-gon-p112.epi">
+                                        <img src="https://photo-baomoi.bmcdn.me/36f7bf8535c7dc9985d6.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item6">
+                                    <a href="https://baomoi.com/tap-chi-tuyen-giao-p466.epi">
+                                        <img src="https://photo-baomoi.bmcdn.me/a7fe2690fbd3128d4bc2.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            
+
+                        </div>
+                    </div>
+                </div>
+                <div class="img-hot">
+                    <p class="box"></p>
+                    <a href="https://baomoi.com/chu-tich-ho-chi-minh/top/114.epi"><img src="https://baomoi-static.bmcdn.me/events/banner_hcm_02-min.png" alt=""></a>
+                </div>
+                <div class="box-local">
+                    <div class="local-header">
+                        <i class="fa-solid fa-location-dot local"></i>
+                        <p><a href="https://baomoi.com/tin-dia-phuong/ba-ria-vung-tau.epi">ĐỊA PHƯƠNG</a></p>
+                    </div>
+                    <form action="" method="get">
+                        <select name="diaphuong" id="diaphuong">
+                            <option value="hanoi">Hà Nội</option>
+                            <option value="angiang">An Giang</option>
+                            <option value="BR-VT">Bà Rịa-Vũng Tàu</option>
+                            <option value="bacgiang">Bắc Giang</option>
+                            <option value="baclieu">Bạc Liêu</option>
+                            <option value="bacninh">Bắc Ninh</option>
+                            <option value="backan">Bắc Kạn</option>
+                            <option value="bentre">Bến Tre</option>
+                            <option value="binhduong">Bình Dương</option>
+                            <option value="camau">Cà Mau</option>
+                            <option value="caobang">Cao Bằng</option>
+                            <option value="cantho">Cần Thơ</option>
+                            <option value="danang">Đà Nẵng</option>
+                            <option value="hagiang">Hà Giang</option>
+                            <option value="hanam">Hà Nam</option>
+                            <option value="haiduong">Hải Dương</option>
+                            <option value="haiphong">Hải Phòng</option>
+                            <option value="hungyen">Hưng Yên</option>
+                            <option value="hochiminh">TP Hồ Chí Minh</option>
+                            <option value="thaibinh">Thái Bình</option>
+                            <option value="thanhhoa">Thanh Hóa</option>
+                            <option value="tiengian">Tiền Giang</option>
+
+                        </select>
+                    </form>
+                    <div class="right-box-img">
+                        <div class="hot-24h">
+                             <a href="http://baobacgiang.com.vn/bg/thoi-tiet/412114/du-bao-thoi-tiet-bac-giang-dem-22-ngay-23-9.html"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_22_409_46996658/a0387671ac3c45621c2d.jpg.webp" alt="" class="box-img"></a>
+                        </div> 
+                        <div class="box-none">
+                             <h4 class="box-title"><a href="http://baobacgiang.com.vn/bg/thoi-tiet/412114/du-bao-thoi-tiet-bac-giang-dem-22-ngay-23-9.html">Dự báo thời tiết Bắc Giang đêm 22, ngày 23/9</a></h4>
+                             <div class="box-note">
+                                 <a href="https://baomoi.com/bao-bac-giang/p/409.epi"><img src="https://photo-baomoi.bmcdn.me/0cfaee3dc67f2f21766e.png" alt="" class="box-logo"></a>
+                                 <p class="box-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">3 liên quan</a></p>
+                                 <i class="clock-icon fa-regular fa-clock"></i>
+
+                             </div>
+                        </div>
+                    </div>
+                    <div class="right-box-img">
+                        <div class="hot-24h">
+                             <a href="https://toquoc.vn/festival-thu-ha-noi-den-de-them-yeu-ha-noi-2023092020061139.htm"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_20_101_46983344/64221db6c5fb2ca575ea.jpg.webp" alt="" class="box-img"></a>
+                        </div> 
+                        <div class="box-none">
+                             <h4 class="box-title"><a href="https://toquoc.vn/festival-thu-ha-noi-den-de-them-yeu-ha-noi-2023092020061139.htm">Festival Thu Hà Nội: Đến để thêm yêu Hà Nội</a></h4>
+                             <div class="box-note">
+                                 <a href="https://baomoi.com/bao-to-quoc/p/101.epi"><img src="https://photo-baomoi.bmcdn.me/1ab14ade979d7ec3278c.png" alt="" class="box-logo"></a>
+                                 <p class="box-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">5 liên quan</a></p>
+                                 <i class="clock-icon fa-regular fa-clock"></i>
+
+                             </div>
+                        </div>
+                    </div>
+                    <div class="right-box-img">
+                        <div class="hot-24h">
+                             <a href="https://phapluatxahoi.kinhtedothi.vn/ha-noi-ngay-tro-ve-353306.html"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_22_204_46996413/591c0a4bd00639586017.jpg.webp" alt="" class="box-img"></a>
+                        </div> 
+                        <div class="box-none">
+                             <h4 class="box-title"><a href="https://phapluatxahoi.kinhtedothi.vn/ha-noi-ngay-tro-ve-353306.html">Hà Nội - ngày trở về...</a></h4>
+                             <div class="box-note">
+                                 <a href="https://baomoi.com/chuyen-trang-phap-luat-xa-hoi-bao-kinh-te-do-thi/p/204.epi"><img src="https://photo-baomoi.bmcdn.me/274c96dbe3990ac75388.png" alt="" class="box-logo"></a>
+                                 <p class="box-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">2 liên quan</a></p>
+                                 <i class="clock-icon fa-regular fa-clock"></i>
+
+                             </div>
+                        </div>
+                    </div>
+                    <div class="right-box-img bottom">
+                        <div class="hot-24h">
+                             <a href="https://baohaiduong.vn/hai-duong-co-18-vung-trong-rau-mau-dat-chung-nhan-vietgap-357718.html"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2_sm/2023_09_23_428_47012209/44afc08f14c2fd9ca4d3.jpg.webp" alt="" class="box-img"></a>
+                        </div> 
+                        <div class="box-none">
+                             <h4 class="box-title"><a href="https://baohaiduong.vn/hai-duong-co-18-vung-trong-rau-mau-dat-chung-nhan-vietgap-357718.html">Hải Dương có 18 vùng trồng rau màu đạt chứng nhận VietGAP</a></h4>
+                             <div class="box-note">
+                                 <a href="https://baomoi.com/bao-hai-duong/p/428.epi"><img src="https://photo-baomoi.bmcdn.me/71bf21db3896d1c88887.png" alt="" class="box-logo"></a>
+                                 <p class="box-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">9 liên quan</a></p>
+                                 <i class="clock-icon fa-regular fa-clock"></i>
+
+                             </div>
+                        </div>
+                    </div>
+
+                    <p class="continue"><a href="https://baomoi.com/tin-dia-phuong/hai-duong.epi">Xem thêm</a></p>  
+                </div>
+                <!-- ---VIDEO 24H--- -->
+                <p class="video-right-heading"><a href="http://127.0.0.1:5500/video.html">VIDEO___________</a></p>
+                 <div class="box-video">
+                     <div class="video1">
+                         <div class="video-24h">
+                             <a href="https://baolaocai.vn/khai-mac-tuan-van-hoa-du-lich-sa-pa-nam-2023-post373846.html"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_20_438_46984169/5035e74d3f00d65e8f11.jpg.webp" alt="" class="box-video-img"></a>
+                         </div>
+                         <i class="fa-solid fa-video video-icon"></i>
+                         <p class="box-video-title"><a href="https://baolaocai.vn/khai-mac-tuan-van-hoa-du-lich-sa-pa-nam-2023-post373846.html">Khai mạc Tuần văn hóa du lịch Sa Pa năm 2023</a></p>
+                         <div class="box-video-note">
+                             <a href="https://baomoi.com/bao-lao-cai/p/438.epi"><img src="https://photo-baomoi.bmcdn.me/262cb4d6c89b21c5788a.png" alt="" class="box-video-logo"></a>
+                             <p class="new-time">6 phút</p>
+                             <p class="box-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">2 liên quan</a></p>
+                             <i class="clock-icon fa-regular fa-clock"></i>
+
+                         </div>
+                     </div>
+ 
+                     <div class="video1">
+                         <div class="video-24h">
+                             <a href="https://baolaocai.vn/khai-mac-tuan-van-hoa-du-lich-sa-pa-nam-2023-post373846.html"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_20_600_46984227/8f8c6cceb4835ddd0492.jpg.webp" alt="" class="box-video-img"></a>
+                         </div>
+                         <i class="fa-solid fa-video video-icon"></i>
+                         <p class="box-video-title"><a href="https://baolaocai.vn/khai-mac-tuan-van-hoa-du-lich-sa-pa-nam-2023-post373846.html">Đảm bảo quyền lợi sử dụng BHYT cho học sinh</a></p>
+                         <div class="box-video-note">
+                             <a href="https://baomoi.com/dai-phat-thanh-va-truyen-hinh-ha-noi/p/600.epi"><img src="https://photo-baomoi.bmcdn.me/1c6ea38145c3ac9df5d2.png" alt="" class="box-video-logo"></a>
+                             <p class="new-time">1 giờ</p>
+                             <p class="box-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">3 liên quan</a></p>
+                             <i class="clock-icon fa-regular fa-clock"></i>
+
+                         </div>
+                     </div>
+ 
+                     <div class="video1">
+                         <div class="video-24h">
+                             <a href="https://baolaocai.vn/khai-mac-tuan-van-hoa-du-lich-sa-pa-nam-2023-post373846.html"><img src="https://photo-baomoi.bmcdn.me/w300_r3x2/2023_09_20_438_46984169/5035e74d3f00d65e8f11.jpg.webp" alt="" class="box-video-img"></a>
+                         </div>
+                         <i class="fa-solid fa-video video-icon"></i>
+                         <p class="box-video-title"><a href="https://baolaocai.vn/khai-mac-tuan-van-hoa-du-lich-sa-pa-nam-2023-post373846.html">Khai mạc Tuần văn hóa du lịch Sa Pa năm 2023</a></p>
+                         <div class="box-video-note">
+                             <a href="https://baomoi.com/bao-lao-cai/p/438.epi"><img src="https://photo-baomoi.bmcdn.me/262cb4d6c89b21c5788a.png" alt="" class="box-video-logo"></a>
+                             <p class="new-time">2 giờ</p>
+                             <p class="box-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">2 liên quan</a></p>
+                             <i class="clock-icon fa-regular fa-clock"></i>
+
+                         </div>
+                     </div>
+                 </div>
+                  <!-- ---PHOTO--- -->
+                  <p class="photo-right-heading">PHOTO__________</p>
+                  <div class="box-photo">
+                      <div class="box-photo-img">
+                          <div class="img-all">
+                              <img src="https://photo-baomoi.bmcdn.me/w300_r4x3/2023_09_29_11_47068680/d33986fb48b6a1e8f8a7.jpg.webp" alt="" class="img-big">
+                              <div class="img-small">
+                                  <img src="https://photo-baomoi.bmcdn.me/w300_r4x3/2023_09_29_11_47068680/c6ed922f5c62b53cec73.jpg.webp" alt="" class="img1">
+                                  <img src="https://photo-baomoi.bmcdn.me/w300_r4x3/2023_09_29_11_47068680/b1f7e1352f78c6269f69.jpg.webp" alt="" class="img1">
+                              </div>
+                          </div>
+                          <p class="photo-title"><a href="https://kinhtedothi.vn/top-5-quoc-gia-so-huu-nhieu-di-san-the-gioi-dep-nhat-hanh-tinh.html">Top 5 quốc gia sở hữu nhiều di sản thế giới đẹp nhất hành tinh</a></p>
+                          <div class="box-video-note">
+                              <a href="https://baomoi.com/bao-kinh-te-do-thi/p/11.epi"><img src="https://photo-baomoi.bmcdn.me/8ac1a1ae7ced95b3ccfc.png" alt="" class="box-video-logo"></a>
+                              <p class="new-time">16 phút</p>
+                              <p class="box-relate"><a href="https://baomoi.com/tin-lien-quan/t/36257021.epi">3 liên quan</a></p>
+                              <i class="clock-icon fa-regular fa-clock"></i>
+
+                          </div>
+                      </div>
+  
+                      <div class="box-photo-img">
+                          <div class="img-all">
+                              <img src="https://photo-baomoi.bmcdn.me/w300_r4x3/2023_09_21_304_46984296/c4ea99ae41e3a8bdf1f2.jpg.webp" alt="" class="img-big">
+                              <div class="img-small">
+                                  <img src="https://photo-baomoi.bmcdn.me/w300_r4x3/2023_09_21_304_46984296/7f6a2d2ef5631c3d4572.jpg.webp" alt="" class="img1">
+                                  <img src="https://photo-baomoi.bmcdn.me/w300_r4x3/2023_09_21_304_46984296/3b726836b07b5925006a.jpg.webp" alt="" class="img1">
+                              </div>
+                          </div>
+                          <p class="photo-title"><a href="https://doanhnghiepvn.vn/kinh-doanh-va-tieu-dung/loat-xe-hap-dan-trong-tam-gia-850-trieu-dong-tai-viet-nam-so-ke-toyota-yaris-cross-hybrid-2023/20230920092253795">Loạt xe hấp dẫn trong tầm giá 850 triệu đồng tại Việt Nam</a></p>
+                          <div class="box-video-note">
+                              <a href="https://baomoi.com/bao-lao-cai/p/438.epi"><img src="https://photo-baomoi.bmcdn.me/262cb4d6c89b21c5788a.png" alt="" class="box-video-logo"></a>
+                              <p class="new-time">16 phút</p>
+                              <p class="box-relate"><a href="https://baomoi.com/tin-lien-quan/t/36257021.epi">3 liên quan</a></p>
+                              <i class="clock-icon fa-regular fa-clock"></i>
+
+                          </div>
+                      </div>
+                  </div>
+                  <!-- ---NÓNG 24H--- -->
+                 <p class="new-right-heading">NÓNG 24H______</p>
+                 <div class="new-right-box">
+                     <div class="right-box-img">
+                        <div class="hot-24h">
+                             <a href="https://baotintuc.vn/phan-tichnhan-dinh/nga-cam-xuat-khau-nhien-lieu-gay-tac-dong-ra-sao-toi-thi-truong-the-gioi-20230928001124953.htm"><img src="https://photo-baomoi.bmcdn.me/w300_r1x1/2023_09_28_294_47057856/fbdfaa9866d58f8bd6c4.jpg.webp" alt="" class="box-img"></a>
+                        </div> 
+                         <div class="box-none">
+                             <h4 class="box-title"><a href="https://baotintuc.vn/phan-tichnhan-dinh/nga-cam-xuat-khau-nhien-lieu-gay-tac-dong-ra-sao-toi-thi-truong-the-gioi-20230928001124953.htm">Nga cấm xuất khẩu nhiên liệu gây tác động ra sao tới thị trường thế giới?</a></h4>
+                             <div class="box-note">
+                                 <a href="https://baomoi.com/bao-tin-tuc-ttxvn/p/294.epi"><img src="https://photo-baomoi.bmcdn.me/bb071048550abc54e51b.png" alt="" class="box-logo"></a>
+                                 <p class="box-relate"><a href="https://baomoi.com/lien-bang-nga/t/31651187.epi">2144 liên quan</a></p>
+                                 <i class="clock-icon fa-regular fa-clock"></i>
+
+                             </div>
+                         </div>
+                     </div>
+ 
+                     <div class="right-box-img">
+                         <div class="hot-24h">
+                             <a href="https://tienphong.vn/lo-bang-chung-ukraine-phong-ten-lua-nham-vao-khu-cho-roi-do-loi-cho-nga-post1570573.tpo"><img src="https://photo-baomoi.bmcdn.me/w300_r1x1/2023_09_20_20_46974119/57de406b9f2676782f37.jpg.webp" alt="" class="box-img"></a>
+                        </div>
+                         <div class="box-none">
+                             <h4 class="box-title"><a href="https://tienphong.vn/lo-bang-chung-ukraine-phong-ten-lua-nham-vao-khu-cho-roi-do-loi-cho-nga-post1570573.tpo">Lộ bằng chứng Ukraine phóng tên lửa nhầm vào khu chợ rồi đổ lỗi cho Nga</a></h4>
+                             <div class="box-note">
+                                 <a href="https://tienphong.vn/lo-bang-chung-ukraine-phong-ten-lua-nham-vao-khu-cho-roi-do-loi-cho-nga-post1570573.tpo"><img src="https://photo-baomoi.bmcdn.me/b3a88dc75084b9dae095.png" alt="" class="box-logo"></a>
+                                 <p class="box-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">3 liên quan</a></p>
+                                 <i class="clock-icon fa-regular fa-clock"></i>
+
+                             </div>
+                         </div>
+                     </div>
+ 
+                     <div class="right-box-img bottom">
+                         <div class="hot-24h">
+                            <a href="https://baotintuc.vn/phan-tichnhan-dinh/lampedusa-diem-nong-di-cu-o-cua-ngo-chau-au-20230927113310580.htm"><img src="https://photo-baomoi.bmcdn.me/w300_r1x1/2023_09_27_294_47053524/e9e3aae879a590fbc9b4.jpg.webp" alt="" class="box-img"></a>
+                        </div>
+                         <div class="box-none">
+                             <h4 class="box-title"><a href="https://baotintuc.vn/phan-tichnhan-dinh/lampedusa-diem-nong-di-cu-o-cua-ngo-chau-au-20230927113310580.htm">Lampedusa – ‘Điểm nóng’ di cư ở cửa ngõ châu Âu</a></h4>
+                             <div class="box-note">
+                                 <a href="https://tienphong.vn/lo-bang-chung-ukraine-phong-ten-lua-nham-vao-khu-cho-roi-do-loi-cho-nga-post1570573.tpo"><img src="https://photo-baomoi.bmcdn.me/b3a88dc75084b9dae095.png" alt="" class="box-logo"></a>
+                                 <p class="box-relate"><a href="https://baomoi.com/dao-lampedusa/t/36213831.epi">30 liên quan</a></p>
+                                 <i class="clock-icon fa-regular fa-clock"></i>
+
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <!-- ---TIỆN ÍCH--- -->
+                 <div class="tienich">
+                    <p class="new-right-heading"><a href="https://baomoi.com/tien-ich.epi">TIỆN ÍCH________</a></p>
+                    <div class="tienich-box">
+                        <div class="temperature">
+                            <img src="https://baomoi-static.zadn.vn/infoservice/images/weathericons/set61/38.svg" alt="" class="temperature-img">
+                            <div class="degree-none">
+                                <p class="degree">31<sup>o</sup></p>
+                                <p>25<sup>o</sup> - 31<sup>o</sup></p>
+                            </div>
+                            <div class="mota">
+                                <p>Mưa rào có sấm chớp ở gần</p>
+                                <p>Độ ẩm: 66%</p>
+                                <p>Gió: 3km/h</p>
+                                <p>Khả năng mưa: 13%</p>
+                            </div>
+                        </div>
+                        <form action="" method="get">
+                            <select name="diaphuong" id="place">
+                                <option value="hanoi">Hà Nội</option>
+                                <option value="angiang">An Giang</option>
+                                <option value="BR-VT">Bà Rịa-Vũng Tàu</option>
+                                <option value="bacgiang">Bắc Giang</option>
+                                <option value="baclieu">Bạc Liêu</option>
+                                <option value="bacninh">Bắc Ninh</option>
+                                <option value="backan">Bắc Kạn</option>
+                                <option value="bentre">Bến Tre</option>
+                                <option value="binhduong">Bình Dương</option>
+                                <option value="camau">Cà Mau</option>
+                                <option value="caobang">Cao Bằng</option>
+                                <option value="cantho">Cần Thơ</option>
+                                <option value="danang">Đà Nẵng</option>
+                                <option value="hagiang">Hà Giang</option>
+                                <option value="hanam">Hà Nam</option>
+                                <option value="haiduong">Hải Dương</option>
+                                <option value="haiphong">Hải Phòng</option>
+                                <option value="hungyen">Hưng Yên</option>
+                                <option value="hochiminh">TP Hồ Chí Minh</option>
+                                <option value="thaibinh">Thái Bình</option>
+                                <option value="thanhhoa">Thanh Hóa</option>
+                                <option value="tiengian">Tiền Giang</option>
+                            </select>
+                        </form>
+                        <div class="day-month">
+                            <div class="day-month1">
+                                <p>26/09</p>
+                                <img src="https://baomoi-static.zadn.vn/infoservice/images/weathericons/set61/4.svg" alt="">
+                                <p class="degree-day">24<sup>o</sup> - 29<sup>o</sup></p>
+                                <p>Mưa giông</p>
+                            </div>
+                            <div class="day-month1">
+                                <p>27/09</p>
+                                <img src="https://baomoi-static.zadn.vn/infoservice/images/weathericons/set61/4.svg" alt="">
+                                <p class="degree-day">24<sup>o</sup> - 28<sup>o</sup></p>
+                                <p>Mưa giông</p>
+                            </div>
+                            <div class="day-month1">
+                                <p>28/09</p>
+                                <img src="https://baomoi-static.zadn.vn/infoservice/images/weathericons/set61/4.svg" alt="">
+                                <p class="degree-day">25<sup>o</sup> - 31<sup>o</sup></p>
+                                <p>Mưa giông</p>
+                            </div>
+                            <div class="day-month1 bottom">
+                                <p>29/09</p>
+                                <img src="https://baomoi-static.zadn.vn/infoservice/images/weathericons/set61/4.svg" alt="">
+                                <p class="degree-day">24<sup>o</sup> - 29<sup>o</sup></p>
+                                <p>Mưa giông</p>
+                            </div>
+                        </div>
+                        <div class="tienich-menu">
+                            <div class="menu-left">
+                                <p><a href="https://baomoi.com/tien-ich/thoi-tiet.epi">Thời tiết</a></p>
+                                <p><a href="https://baomoi.com/tien-ich/ty-gia-ngoai-te.epi">Tỷ giá ngoại lệ</a></p>
+                                <p><a href="https://baomoi.com/tien-ich/ket-qua-xo-so.epi">Kết quả sổ số</a></p>
+                                <p><a href="https://baomoi.com/tien-ich/lich-truyen-hinh.epi">Lịch truyền hình</a></p>
+                                <p><a href="https://baomoi.com/tien-ich/cung-hoang-dao.epi">Cung hoàng đạo</a></p>
+                                <p><a href="https://baomoi.com/tien-ich/bang-gia-xe.epi#oto">Bảng giá xe ô tô</a></p>
+                            </div>
+                            <div class="menu-right">
+                                <p><a href="https://baomoi.com/tien-ich/lich-van-nien.epi">Lịch vạn niên</a></p>
+                                <p><a href="https://baomoi.com/tien-ich/gia-vang.epi">Giá vàng</a></p>
+                                <p><a href="https://baomoi.com/tien-ich/bang-gia-chung-khoan.epi">Chứng khoán</a></p>
+                                <p><a href="https://baomoi.com/tien-ich/cung-hoang-dao.epi">Lịch chiếu phim</a></p>
+                                <p><a href="https://baomoi.com/tien-ich/gia-xang-dau.epi">Giá xăng, dầu</a></p>
+                                <p><a href="https://baomoi.com/tien-ich/bang-gia-xe.epi#xe-may">Bảng giá xe máy</a></p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                 </div>
+
+                 <!-- ---Phân tích--- -->
+                 <p class="look-right-heading">GÓC NHÌN & PHÂN TÍCH____</p>
+                 <div class="new-right-box">
+                     <div class="right-box-img">
+                        <div class="hot-24h">
+                             <a href="https://baotintuc.vn/phan-tichnhan-dinh/nga-cam-xuat-khau-nhien-lieu-gay-tac-dong-ra-sao-toi-thi-truong-the-gioi-20230928001124953.htm"><img src="https://photo-baomoi.bmcdn.me/w300_r1x1/2023_09_28_294_47057856/fbdfaa9866d58f8bd6c4.jpg.webp" alt="" class="box-img"></a>
+                        </div> 
+                         <div class="box-none">
+                             <h4 class="box-title"><a href="https://baotintuc.vn/phan-tichnhan-dinh/nga-cam-xuat-khau-nhien-lieu-gay-tac-dong-ra-sao-toi-thi-truong-the-gioi-20230928001124953.htm">Nga cấm xuất khẩu nhiên liệu gây tác động ra sao tới thị trường thế giới?</a></h4>
+                             <div class="box-note">
+                                 <a href="https://baomoi.com/bao-tin-tuc-ttxvn/p/294.epi"><img src="https://photo-baomoi.bmcdn.me/bb071048550abc54e51b.png" alt="" class="box-logo"></a>
+                                 <p class="box-relate"><a href="https://baomoi.com/lien-bang-nga/t/31651187.epi">2144 liên quan</a></p>
+                                 <i class="clock-icon fa-regular fa-clock"></i>
+
+                             </div>
+                         </div>
+                     </div>
+ 
+                     <div class="right-box-img">
+                         <div class="hot-24h">
+                             <a href="https://tienphong.vn/lo-bang-chung-ukraine-phong-ten-lua-nham-vao-khu-cho-roi-do-loi-cho-nga-post1570573.tpo"><img src="https://photo-baomoi.bmcdn.me/w300_r1x1/2023_09_20_20_46974119/57de406b9f2676782f37.jpg.webp" alt="" class="box-img"></a>
+                        </div>
+                         <div class="box-none">
+                             <h4 class="box-title"><a href="https://tienphong.vn/lo-bang-chung-ukraine-phong-ten-lua-nham-vao-khu-cho-roi-do-loi-cho-nga-post1570573.tpo">Lộ bằng chứng Ukraine phóng tên lửa nhầm vào khu chợ rồi đổ lỗi cho Nga</a></h4>
+                             <div class="box-note">
+                                 <a href="https://tienphong.vn/lo-bang-chung-ukraine-phong-ten-lua-nham-vao-khu-cho-roi-do-loi-cho-nga-post1570573.tpo"><img src="https://photo-baomoi.bmcdn.me/b3a88dc75084b9dae095.png" alt="" class="box-logo"></a>
+                                 <p class="box-relate"><a href="https://baomoi.com/ta-duy-khanh-t36358183.epi">3 liên quan</a></p>
+                                 <i class="clock-icon fa-regular fa-clock"></i>
+
+                             </div>
+                         </div>
+                     </div>
+ 
+                     <div class="right-box-img bottom">
+                         <div class="hot-24h">
+                            <a href="https://baotintuc.vn/phan-tichnhan-dinh/lampedusa-diem-nong-di-cu-o-cua-ngo-chau-au-20230927113310580.htm"><img src="https://photo-baomoi.bmcdn.me/w300_r1x1/2023_09_27_294_47053524/e9e3aae879a590fbc9b4.jpg.webp" alt="" class="box-img"></a>
+                        </div>
+                         <div class="box-none">
+                             <h4 class="box-title"><a href="https://baotintuc.vn/phan-tichnhan-dinh/lampedusa-diem-nong-di-cu-o-cua-ngo-chau-au-20230927113310580.htm">Lampedusa – ‘Điểm nóng’ di cư ở cửa ngõ châu Âu</a></h4>
+                             <div class="box-note">
+                                 <a href="https://tienphong.vn/lo-bang-chung-ukraine-phong-ten-lua-nham-vao-khu-cho-roi-do-loi-cho-nga-post1570573.tpo"><img src="https://photo-baomoi.bmcdn.me/b3a88dc75084b9dae095.png" alt="" class="box-logo"></a>
+                                 <p class="box-relate"><a href="https://baomoi.com/dao-lampedusa/t/36213831.epi">30 liên quan</a></p>
+                                 <i class="clock-icon fa-regular fa-clock"></i>
+
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+
+                    <!-- ---XU HƯỚNG--- -->
+                    <p class="look-right-heading">XU HƯỚNG_______________</p>
+                    <div class="xuhuong-box">
+                        <a href="https://baomoi.com/tag/trung-thu.epi" class="xuhuong1">Trung Thu</a>
+                        <div class="xuhuong2">
+                            <a href="https://baomoi.com/tag/x%C3%A2y-d%E1%BB%B1ng-%C4%91%E1%BA%A3ng.epi" class="xuhuong3">Xây dựng đảng</a>
+                            <a href="https://baomoi.com/tag/iPhone-15.epi" class="xuhuong3">Iphone 15</a>
+                        </div>
+                        <a href="https://baomoi.com/tag/%C4%91o%C3%A0n-th%E1%BB%83-thao-vi%E1%BB%87t-nam.epi" class="xuhuong4">đoàn thể thao Việt Nam</a>
+                        <div class="xuhuong2">
+                            <a href="https://baomoi.com/tag/x%C3%A2y-d%E1%BB%B1ng-%C4%91%E1%BA%A3ng.epi" class="xuhuong3">Liên Bang Nga</a>
+                            <a href="https://baomoi.com/tag/iPhone-15.epi" class="xuhuong3">Asiad 23</a>
+                        </div>
+                        <a href="https://baomoi.com/tag/%C4%91o%C3%A0n-th%E1%BB%83-thao-vi%E1%BB%87t-nam.epi" class="xuhuong5">Văn minh thế giới</a>
+                        <div class="xuhuong2">
+                            <a href="https://baomoi.com/tag/x%C3%A2y-d%E1%BB%B1ng-%C4%91%E1%BA%A3ng.epi" class="xuhuong3">Phan Công Minh</a>
+                            <a href="https://baomoi.com/tag/iPhone-15.epi" class="xuhuong3">Năm 2023</a>
+                        </div>
+                        <a href="https://baomoi.com/tag/%C4%91o%C3%A0n-th%E1%BB%83-thao-vi%E1%BB%87t-nam.epi" class="xuhuong6">Thời tiết</a>
+                        <div class="xuhuong2">
+                            <a href="https://baomoi.com/tag/x%C3%A2y-d%E1%BB%B1ng-%C4%91%E1%BA%A3ng.epi" class="xuhuong3">Xây dựng đảng</a>
+                            <a href="https://baomoi.com/tag/iPhone-15.epi" class="xuhuong3">Iphone 15</a>
+                        </div>
+                        <a href="https://baomoi.com/tag/%C4%91o%C3%A0n-th%E1%BB%83-thao-vi%E1%BB%87t-nam.epi" class="xuhuong7">Bất động sản</a>
+                        <div class="xuhuong2">
+                            <a href="https://baomoi.com/tag/x%C3%A2y-d%E1%BB%B1ng-%C4%91%E1%BA%A3ng.epi" class="xuhuong3">Hoàng Xuân Vinh</a>
+                            <a href="https://baomoi.com/tag/iPhone-15.epi" class="xuhuong3">Iphone 15</a>
+                        </div>
+                        <a href="https://baomoi.com/tag/%C4%91%E1%BB%99i-tuy%E1%BB%83n-n%E1%BB%AF-vi%E1%BB%87t-nam.epi" class="xuhuong4">đội tuyển nữ Việt Nam</a>
+                        <div class="xuhuong2">
+                            <a href="https://baomoi.com/tag/x%C3%A2y-d%E1%BB%B1ng-%C4%91%E1%BA%A3ng.epi" class="xuhuong3">Xây dựng đảng</a>
+                            <a href="https://baomoi.com/tag/iPhone-15.epi" class="xuhuong3">Iphone 15</a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <a href="https://baomoi.com/trang11.epi">
+            <div class="xemthem">
+                <p><a href="https://baomoi.com/trang11.epi">XEM THÊM</a></p>
+            </div>
+        </a>
+        <section id="footer">
+            <div id="footer-nav">
+                <div class="nav_container">
+                    <img src="https://baomoi-static.bmcdn.me/web/styles/img/desktop-logo-v2.png" alt="" class="footer-logo">
+                    <input type="text" class="search_input" placeholder="Nhập nội dung tìm kiếm">
+                </div>
+            </div>
+            <div id="container">
+                <div class="keyword_list">
+                    <span class="keyword">Rowing</span>
+                    <span class="keyword">Huế</span>
+                    <span class="keyword">Hàn Quốc</span>
+                    <span class="keyword">Americal</span>
+                    <span class="keyword">Báo kinh tế</span>
+                    <span class="keyword">Thành phố Hồ Chí Minh</span>
+                    <span class="keyword">Biển Đông</span>
+                    <span class="keyword">Mạng xã hội</span>
+                    <span class="keyword">Đà Nẵng</span>
+                    <span class="keyword">Nam Bộ</span>
+                    <span class="keyword">Trung Trung Bộ</span>
+                    <span class="keyword">Việt Nam</span>
+                    <span class="keyword">Trung thu</span>
+                    <span class="keyword">Bóng đá</span>
+                    <span class="keyword">IPhone 15 Pro Max</span>
+                    <span class="keyword">Thời tiết</span>
+                    <span class="keyword">Bulgaria </span>
+                    <span class="keyword">Tháng 10</span>
+                    <span class="keyword">Hà Nội</span>
+                    <span class="keyword">Liên Bang Nga</span>
+                    <span class="keyword">Quốc Hội</span>
+                    <span class="keyword">Bất động sản</span>
+                    <span class="keyword">hồ Ba Bể</span>
+                    <span class="keyword">Hải Dương</span>
+                    <span class="keyword">Ngày hội sinh viên</span>
+                    <span class="keyword">Tết cổ truyền</span>
+                    <span class="keyword">Lễ hội Nhật Bản</span>
+                    <span class="keyword">Thừa Thiên Huế</span>
+                    <span class="keyword">Ẩm thực đường phố</span>
+                    <span class="keyword">Phố đi bộ </span>
+                    <span class="keyword">Đảo</span>
+                    <span class="keyword">Tiền điện tử</span>
+                    <span class="keyword">Giá vàng</span>
+                    <span class="keyword">Hài hước</span>
+                    <span class="keyword">Truyện đọc</span>
+                    <span class="keyword">Văn hóa</span>
+                    <span class="keyword">Kinh doanh</span>
+                    <span class="keyword">Khởi nghiệp</span>
+                    <span class="keyword">Ngày hội tuyển sinh</span>
+                    <span class="keyword">Giao lưu văn hóa</span>
+                    <span class="keyword">Tìm hiểu</span>
+                    <span class="keyword">Học tập</span>
+                    <span class="keyword">Sáng chế </span>
+                    <span class="keyword">Thời sự</span>
+                    <span class="keyword">Văn minh thế giới</span>
+                    <span class="keyword">Trang phục truyền thống</span>
+                    <span class="keyword">Hài hước</span>
+                    <span class="keyword">Nhân văn</span>
+                    <span class="keyword">Chuyên gia</span>
+                    <span class="keyword">Thú cưng</span>
+                </div>
+                <div class="copyright">
+                    <div class="col">
+                        <h1 class="title">LIÊN HỆ</h1>
+                        <ul class="field">
+                            <li>Giới thiệu</li>
+                            <li>Điều khoản sử dụng</li>
+                            <li>Chính sách bảo mật</li>
+                            <li>Quảng cáo</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h1 class="title">KHÁC</h1>
+                        <ul class="field">
+                            <li>Tổng hợp</li>
+                        </ul>
+                    </div>
+                    <div class="infor">
+                        <p>Giấy phép thiết lập trang thông tin điện tử tổng hợp số 1818/GP-TTĐT do Sở Thông tin và Truyền thông Hà Nội cấp ngày
+                        05/05/2017</p>
+                        <p>Đơn vị thiết lập: Công ty cổ phần công nghệ EPI * Chịu trách nhiệm: Vũ Trọng Cường</p>
+                        <p>Địa chỉ: Tầng 16, Tòa nhà TNR Tower, số 54A Nguyễn Chí Thanh, phường Láng Thượng, quận Đống Đa, Hà Nội.</p>
+                        <p>Điện thoại: (024) 3-542-3555 Email: contact.baomoi@epi.com.vn</p>
+                        <p>BAOMOI tổng hợp và sắp xếp các thông tin tự động</p>
+                        <p>bởi chương trình máy tính</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- Hiệu ứng slideshow -js -->
+    <script src="owlcarousel/jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script>
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items: 4,
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            autoplayTimeout: 500,
+            autoplayHoverPause: true,
+            dots: false,
+        });
+        $('.play').on('click', function () {
+            owl.trigger('play.owl.autoplay', [500])
+        })
+        $('.stop').on('click', function () {
+            owl.trigger('stop.owl.autoplay')
+        })
+    </script>
+
+
+    
+
+    </script>
+</body>
+</html>
